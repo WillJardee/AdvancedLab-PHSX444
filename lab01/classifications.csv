@@ -1,0 +1,19 @@
+sample,name,our classification,online classification,our chi molar,online chi(cm3/mol),percent chi molar diff
+1, copper,dia,dia,(-1.88+/-0.04)e-05,-5.46e-06,-244+/-7
+2, aluminum,para,para,(1.683+/-0.033)e-05,1.65e-05,-2.0+/-2.0
+3, titanium,para,para,0.000261+/-0.000005,0.000153,-70.3+/-3.4
+4, bismuth,dia,dia,-0.000588+/-0.000012,-0.00028,-110+/-4
+5, colbalt wire,para,ferro,0.00273+/-0.00005,,nan+/-nan
+6, pyrolytic graphite,dia,,-0.0001660+/-0.0000033,,nan+/-nan
+7, neodymium choride hexahydrate,para,para,0.00680+/-0.00013,,nan+/-nan
+8, gadolinium oxide,ferro,,-0.00423+/-0.00008,0.0532,107.96+/-0.16
+9, erbium oxide,ferro,,0.000204+/-0.000004,0.07392,99.724+/-0.005
+10, mohrs salt,ferro,,-0.00992+/-0.00020,,nan+/-nan
+11, irom alum,ferro,para,-0.0188+/-0.0004,,nan+/-nan
+12, blue vitriol,para,,0.00231+/-0.00005,0.00133,-73.6+/-3.4
+13, copper acetate,para,,0.000933+/-0.000018,,nan+/-nan
+14, manganese oxide,ferro,,-0.000310+/-0.000006,-0.00485,93.61+/-0.13
+15, manganese choride tetrahydrate,dia,,-0.0251+/-0.0005,-0.01435,-74.6+/-3.5
+16, nickel-zinc ferrite,para,para,0.0235+/-0.0005,,nan+/-nan
+17, iodized salt,dia,,(-7.89+/-0.16)e-05,,nan+/-nan
+18, himalanan salt,dia,,(-7.28+/-0.14)e-05,,nan+/-nan
