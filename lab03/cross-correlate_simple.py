@@ -19,17 +19,18 @@ from scipy.ndimage import fourier_shift
 # Settings
 # ==============================================================================
 
-N_horizontal_pixels = 150
-N_vertical_pixels = 150
+N_horizontal_pixels = 50
+N_vertical_pixels = 50
 image_max_value = 255
 
-directory_images = "./trap11_prossessed"
+directory_images = "./trap23_prossessed"
 directory_results = "./"
-output_file = "data_11xy.csv"
+output_file = "data_23xy.csv"
 
-N_images = 1000
+N_images = 5000
 
-upsample_factor = 10
+
+upsample_factor = 100
 
 
 # ==============================================================================
@@ -40,7 +41,7 @@ class State(object):
     pass
 
 
-def setup(state, image_scale_max, COM_marker_radius=3, COM_marker_color=None):
+def setup(state, image_scale_max, COM_marker_radius=0, COM_marker_color=None):
     state.fig = plt.figure()
     plt.gray()  # show grayscale
 
