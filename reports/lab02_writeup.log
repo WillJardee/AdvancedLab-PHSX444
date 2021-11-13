@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=latex 2021.10.22)  24 OCT 2021 20:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  8 NOV 2021 17:36
 entering extended mode
 **./lab02_writeup.tex
 (lab02_writeup.tex
@@ -173,10 +173,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\dvips.def
-File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen157
 \Gin@req@width=\dimen158
@@ -210,7 +210,7 @@ Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package pdftexcmds Info: \pdfdraftmode found.
 ))
 \l__siunitx_number_exponent_fixed_int=\count275
 \l__siunitx_number_min_decimal_int=\count276
@@ -223,10 +223,8 @@ Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: dvips.def on input line 149.
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
-File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-))
+Package color Info: Driver file: pdftex.def on input line 149.
+)
 \l__siunitx_table_tmp_box=\box54
 \l__siunitx_table_tmp_dim=\dimen160
 \l__siunitx_table_column_width_dim=\dimen161
@@ -245,28 +243,23 @@ eys2e.sty
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2021-08-27 L3 programming layer (loader) 
 
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-dvi
-ps.def
-File: l3backend-dvips.def 2021-08-04 L3 backend support: dvips
+(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box59
-\g__pdf_backend_object_int=\count283
-\l__pdf_backend_content_box=\box60
-\l__pdf_backend_model_box=\box61
-\g__pdf_backend_annotation_int=\count284
-\g__pdf_backend_link_int=\count285
-\g__pdf_backend_link_sf_int=\count286
 ))
 Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
 )
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
 \col@sep=\dimen164
-\ar@mcellbox=\box62
+\ar@mcellbox=\box60
 \extrarowheight=\dimen165
 \NC@list=\toks30
 \extratabsurround=\skip55
 \backup@length=\skip56
-\ar@cellbox=\box63
+\ar@cellbox=\box61
 ))
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
@@ -285,11 +278,11 @@ Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \caption@hangindent=\dimen172
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count287
-\c@continuedfloat=\count288
+\c@caption@flags=\count284
+\c@continuedfloat=\count285
 )
-\c@subfigure=\count289
-\c@subtable=\count290
+\c@subfigure=\count286
+\c@subtable=\count287
 )
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplotstable.
 sty
@@ -318,7 +311,7 @@ y
 -common-lists.tex))
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -latex.def
-\pgfutil@abb=\box64
+\pgfutil@abb=\box62
 )
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
 code.tex
@@ -356,35 +349,34 @@ filtered.code.tex
 \pgf@yd=\dimen184
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count291
-\c@pgf@countb=\count292
-\c@pgf@countc=\count293
-\c@pgf@countd=\count294
+\c@pgf@counta=\count288
+\c@pgf@countb=\count289
+\c@pgf@countc=\count290
+\c@pgf@countd=\count291
 \t@pgf@toka=\toks35
 \t@pgf@tokb=\toks36
 \t@pgf@tokc=\toks37
-\pgf@sys@id@count=\count295
+\pgf@sys@id@count=\count292
 
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
 fg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
-Driver file for pgf: pgfsys-dvips.def
+Driver file for pgf: pgfsys-pdftex.def
 
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-dvips.def
-File: pgfsys-dvips.def 2021/05/15 v3.1.9a (3.1.9a)
+s-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
 
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-common-postscript.def
-File: pgfsys-common-postscript.def 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@objectcount=\count296
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count297
-\pgfsyssoftpath@bigbuffer@items=\count298
+\pgfsyssoftpath@smallbuffer@items=\count293
+\pgfsyssoftpath@bigbuffer@items=\count294
 )
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
@@ -396,9 +388,10 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 LaTeX Info: Redefining \color on input line 709.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -420,8 +413,8 @@ code.tex)
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen185
-\pgfmath@count=\count299
-\pgfmath@box=\box65
+\pgfmath@count=\count295
+\pgfmath@box=\box63
 \pgfmath@toks=\toks38
 \pgfmath@stack@operand=\toks39
 \pgfmath@stack@operation=\toks40
@@ -446,7 +439,7 @@ ions.misc.code.tex)
 ions.integerarithmetics.code.tex)))
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
-\c@pgfmathroundto@lastzeros=\count300
+\c@pgfmathroundto@lastzeros=\count296
 ))
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
 tex)
@@ -483,10 +476,10 @@ File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 escopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box66
-\pgf@hbox=\box67
-\pgf@layerbox@main=\box68
-\pgf@picture@serial@count=\count301
+\pgfpic=\box64
+\pgf@hbox=\box65
+\pgf@layerbox@main=\box66
+\pgf@picture@serial@count=\count297
 )
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
@@ -521,8 +514,8 @@ File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 eshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen265
-\pgf@sys@shading@range@num=\count302
-\pgf@shadingcount=\count303
+\pgf@sys@shading@range@num=\count298
+\pgf@shadingcount=\count299
 )
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eimage.code.tex
@@ -531,7 +524,7 @@ File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box69
+\pgfexternal@startupbox=\box67
 ))
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 elayers.code.tex
@@ -552,7 +545,7 @@ File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 shapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box70
+\pgfnodeparttextbox=\box68
 )
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 plot.code.tex
@@ -595,7 +588,7 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count304
+\pgf@plot@mark@count=\count300
 \pgfplotmarksize=\dimen270
 )
 \tikz@lastx=\dimen271
@@ -606,23 +599,23 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@lastmovetoy=\dimen276
 \tikzleveldistance=\dimen277
 \tikzsiblingdistance=\dimen278
-\tikz@figbox=\box71
-\tikz@figbox@bg=\box72
-\tikz@tempbox=\box73
-\tikz@tempbox@bg=\box74
-\tikztreelevel=\count305
-\tikznumberofchildren=\count306
-\tikznumberofcurrentchild=\count307
-\tikz@fig@count=\count308
+\tikz@figbox=\box69
+\tikz@figbox@bg=\box70
+\tikz@tempbox=\box71
+\tikz@tempbox@bg=\box72
+\tikztreelevel=\count301
+\tikznumberofchildren=\count302
+\tikznumberofcurrentchild=\count303
+\tikz@fig@count=\count304
 
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count309
-\pgfmatrixcurrentcolumn=\count310
-\pgf@matrix@numberofcolumns=\count311
+\pgfmatrixcurrentrow=\count305
+\pgfmatrixcurrentcolumn=\count306
+\pgf@matrix@numberofcolumns=\count307
 )
-\tikz@expandcount=\count312
+\tikz@expandcount=\count308
 
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
@@ -636,8 +629,8 @@ e.tex
 \t@pgfplots@tokb=\toks44
 \t@pgfplots@tokc=\toks45
 \pgfplots@tmpa=\dimen279
-\c@pgfplots@coordindex=\count313
-\c@pgfplots@scanlineindex=\count314
+\c@pgfplots@coordindex=\count309
+\c@pgfplots@scanlineindex=\count310
 
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplots
 sysgeneric.code.tex))
@@ -655,13 +648,13 @@ e\pgfplotsliststructure.code.tex)
 e\pgfplotsliststructureext.code.tex)
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
 e\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count315
+\c@pgfplotsarray@tmp=\count311
 )
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
 e\pgfplotsmatrix.code.tex)
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
 plotstableshared.code.tex
-\c@pgfplotstable@counta=\count316
+\c@pgfplotstable@counta=\count312
 \t@pgfplotstable@a=\toks46
 )
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
@@ -674,10 +667,10 @@ sbinary.data.code.tex))
 sutil.verb.code.tex)
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibr
 arypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count317
+\c@pgfplotslibrarysurf@no=\count313
 
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibra
-rypgfplots.surfshading.pgfsys-dvips.def)))
+rypgfplots.surfshading.pgfsys-pdftex.def)))
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
 scolormap.code.tex
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
@@ -711,11 +704,11 @@ decorations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen282
 \pgfdecoratedinputsegmentremainingdistance=\dimen283
 \pgf@decorate@distancetomove=\dimen284
-\pgf@decorate@repeatstate=\count318
+\pgf@decorate@repeatstate=\count314
 \pgfdecorationsegmentamplitude=\dimen285
 \pgfdecorationsegmentlength=\dimen286
 )
-\tikz@lib@dec@box=\box75
+\tikz@lib@dec@box=\box73
 )
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
@@ -727,7 +720,7 @@ z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
 ions\pgflibrarydecorations.pathreplacing.code.tex))
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
 rarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count319
+\pgfplots@numplots=\count315
 \pgfplots@xmin@reg=\dimen287
 \pgfplots@xmax@reg=\dimen288
 \pgfplots@ymin@reg=\dimen289
@@ -765,9 +758,9 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -799,6 +792,31 @@ LaTeX Font Info:    ... okay on input line 21.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
+(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count316
+\scratchdimen=\dimen293
+\scratchbox=\box74
+\nofMPsegments=\count317
+\nofMParguments=\count318
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count319
+\MPscratchDim=\dimen294
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
+\everyMPtoPDFconversion=\toks48
+)
+(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
 slations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tra
@@ -825,131 +843,929 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [1
 
-] [2]
-File: ../lab02/images/circuit.eps Graphic file (type eps)
- <../lab02/images/circuit.eps> [3]
-File: ../lab02/images/1 kHz Sine Wave (uniform).eps Graphic file (type eps)
+{C:/Users/jarde/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
+Package epstopdf Info: Source file: <../lab02/images/circuit.eps>
+(epstopdf)                    date: 2021-10-22 21:00:39
+(epstopdf)                    size: 143607 bytes
+(epstopdf)             Output file: <../lab02/images/circuit-eps-converted-to.p
+df>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/circ
+uit-eps-converted-to.pdf ../lab02/images/circuit.eps>
+(epstopdf)             \includegraphics on input line 94.
+runsystem(miktex-epstopdf --outfile=../lab02/images/circuit-eps-converted-to.pd
+f ../lab02/images/circuit.eps)...executed (allowed).
 
-<../lab02/images/1 kHz Sine Wave (uniform).eps>
-File: ../lab02/images/1 kHz Sine Wave (hanning).eps Graphic file (type eps)
-
-<../lab02/images/1 kHz Sine Wave (hanning).eps>
-File: ../lab02/images/1_03 kHz Sine Wave (uniform).eps Graphic file (type eps)
-
-<../lab02/images/1_03 kHz Sine Wave (uniform).eps>
-File: ../lab02/images/1_03 kHz Sine Wave (hanning).eps Graphic file (type eps)
-
-<../lab02/images/1_03 kHz Sine Wave (hanning).eps>
-File: ../lab02/images/1 kHz Square Wave (uniform).eps Graphic file (type eps)
-
-<../lab02/images/1 kHz Square Wave (uniform).eps>
-File: ../lab02/images/1 kHz Square Wave (hanning).eps Graphic file (type eps)
-
-<../lab02/images/1 kHz Square Wave (hanning).eps>
-File: ../lab02/images/1_03 kHz Square Wave (uniform).eps Graphic file (type eps
-)
-
-<../lab02/images/1_03 kHz Square Wave (uniform).eps>
-File: ../lab02/images/1_03 kHz Square Wave (hanning).eps Graphic file (type eps
-)
-
-<../lab02/images/1_03 kHz Square Wave (hanning).eps>
-File: ../lab02/images/1 kHz Triangle Wave (uniform).eps Graphic file (type eps)
+Package epstopdf Info: Result file: <../lab02/images/circuit-eps-converted-to.p
+df>.
 
 
-<../lab02/images/1 kHz Triangle Wave (uniform).eps>
-File: ../lab02/images/1 kHz Triange Wave (hanning).eps Graphic file (type eps)
+! Package pdftex.def Error: File `../lab02/images/circuit-eps-converted-to.pdf'
+ not found: using draft setting.
 
-<../lab02/images/1 kHz Triange Wave (hanning).eps>
-File: ../lab02/images/1_03 kHz Tringle Wave (uniform).eps Graphic file (type ep
-s)
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 	\includegraphics[width=4in]{circuit}
+                                          
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<../lab02/images/1_03 kHz Tringle Wave (uniform).eps>
-File: ../lab02/images/1_03 kHz Triangle Wave (hanning).eps Graphic file (type e
-ps)
+[3]
+Package epstopdf Info: Source file: <../lab02/images/1 kHz Sine Wave (uniform).
+eps>
+(epstopdf)                    date: 2021-10-23 23:48:33
+(epstopdf)                    size: 61739 bytes
+(epstopdf)             Output file: <../lab02/images/1 kHz Sine Wave (uniform)-
+eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/1 kH
+z Sine Wave (uniform)-eps-converted-to.pdf ../lab02/images/1 kHz Sine Wave (uni
+form).eps>
+(epstopdf)             \includegraphics on input line 109.
+runsystem(miktex-epstopdf --outfile=../lab02/images/1 kHz Sine Wave (uniform)-e
+ps-converted-to.pdf ../lab02/images/1 kHz Sine Wave (uniform).eps)...executed (
+allowed).
 
-<../lab02/images/1_03 kHz Triangle Wave (hanning).eps>
-File: ../lab02/images/1 kHz and 1_03 kHz Sine Wave Sum (uniform).eps Graphic fi
-le (type eps)
+Package epstopdf Info: Result file: <../lab02/images/1 kHz Sine Wave (uniform)-
+eps-converted-to.pdf>.
 
-<../lab02/images/1 kHz and 1_03 kHz Sine Wave Sum (uniform).eps>
-File: ../lab02/images/1 kHz and 1_03 kHz Sine Wave Sum (hanning).eps Graphic fi
-le (type eps)
 
-<../lab02/images/1 kHz and 1_03 kHz Sine Wave Sum (hanning).eps>
-File: ../lab02/images/1 kHz and 1_03 kHz Sine Wave Product (uniform).eps Graphi
-c file (type eps)
+! Package pdftex.def Error: File `../lab02/images/1 kHz Sine Wave (uniform)-eps
+-converted-to.pdf' not found: using draft setting.
 
-<../lab02/images/1 kHz and 1_03 kHz Sine Wave Product (uniform).eps>
-File: ../lab02/images/1 kHz and 1_03 kHz Sine Wave Product (hanning).eps Graphi
-c file (type eps)
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109 ...th=\textwidth]{1 kHz Sine Wave (uniform)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<../lab02/images/1 kHz and 1_03 kHz Sine Wave Product (hanning).eps>
-File: ../lab02/images/Variety of Windows.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <../lab02/images/1 kHz Sine Wave (hanning).
+eps>
+(epstopdf)                    date: 2021-10-23 23:48:33
+(epstopdf)                    size: 65664 bytes
+(epstopdf)             Output file: <../lab02/images/1 kHz Sine Wave (hanning)-
+eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/1 kH
+z Sine Wave (hanning)-eps-converted-to.pdf ../lab02/images/1 kHz Sine Wave (han
+ning).eps>
+(epstopdf)             \includegraphics on input line 110.
+runsystem(miktex-epstopdf --outfile=../lab02/images/1 kHz Sine Wave (hanning)-e
+ps-converted-to.pdf ../lab02/images/1 kHz Sine Wave (hanning).eps)...executed (
+allowed).
 
-<../lab02/images/Variety of Windows.eps>
-File: ../lab02/images/Buried Treasure Setting A (uniform).eps Graphic file (typ
-e eps)
+Package epstopdf Info: Result file: <../lab02/images/1 kHz Sine Wave (hanning)-
+eps-converted-to.pdf>.
 
-<../lab02/images/Buried Treasure Setting A (uniform).eps>
-File: ../lab02/images/Buried Treasure Setting B (uniform).eps Graphic file (typ
-e eps)
+! Package pdftex.def Error: File `../lab02/images/1 kHz Sine Wave (hanning)-eps
+-converted-to.pdf' not found: using draft setting.
 
-<../lab02/images/Buried Treasure Setting B (uniform).eps>
-File: ../lab02/images/Buried Treasure Setting C (uniform).eps Graphic file (typ
-e eps)
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 ...th=\textwidth]{1 kHz Sine Wave (hanning)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<../lab02/images/Buried Treasure Setting C (uniform).eps> [4] [5]
-File: ../lab02/images/arduino data_.eps Graphic file (type eps)
+Package epstopdf Info: Source file: <../lab02/images/1_03 kHz Sine Wave (unifor
+m).eps>
+(epstopdf)                    date: 2021-10-23 23:48:33
+(epstopdf)                    size: 57781 bytes
+(epstopdf)             Output file: <../lab02/images/1_03 kHz Sine Wave (unifor
+m)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/1_03
+ kHz Sine Wave (uniform)-eps-converted-to.pdf ../lab02/images/1_03 kHz Sine Wav
+e (uniform).eps>
+(epstopdf)             \includegraphics on input line 111.
+runsystem(miktex-epstopdf --outfile=../lab02/images/1_03 kHz Sine Wave (uniform
+)-eps-converted-to.pdf ../lab02/images/1_03 kHz Sine Wave (uniform).eps)...exec
+uted (allowed).
 
-<../lab02/images/arduino data_.eps>
-File: ../lab02/images/Noise Drive into LRC Filter (uniform).eps Graphic file (t
-ype eps)
+Package epstopdf Info: Result file: <../lab02/images/1_03 kHz Sine Wave (unifor
+m)-eps-converted-to.pdf>.
 
-<../lab02/images/Noise Drive into LRC Filter (uniform).eps> [6]
-File: ../lab02/images/Acoustical Chamber (3cm) (uniform).eps Graphic file (type
- eps)
+! Package pdftex.def Error: File `../lab02/images/1_03 kHz Sine Wave (uniform)-
+eps-converted-to.pdf' not found: using draft setting.
 
-<../lab02/images/Acoustical Chamber (3cm) (uniform).eps>
-File: ../lab02/images/Acoustical Chamber (4cm) (uniform).eps Graphic file (type
- eps)
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 ...\textwidth]{1_03 kHz Sine Wave (uniform)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<../lab02/images/Acoustical Chamber (4cm) (uniform).eps>
-File: ../lab02/images/Acoustical Chamber (5cm) (uniform).eps Graphic file (type
- eps)
+Package epstopdf Info: Source file: <../lab02/images/1_03 kHz Sine Wave (hannin
+g).eps>
+(epstopdf)                    date: 2021-10-23 23:48:33
+(epstopdf)                    size: 65949 bytes
+(epstopdf)             Output file: <../lab02/images/1_03 kHz Sine Wave (hannin
+g)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/1_03
+ kHz Sine Wave (hanning)-eps-converted-to.pdf ../lab02/images/1_03 kHz Sine Wav
+e (hanning).eps>
+(epstopdf)             \includegraphics on input line 113.
+runsystem(miktex-epstopdf --outfile=../lab02/images/1_03 kHz Sine Wave (hanning
+)-eps-converted-to.pdf ../lab02/images/1_03 kHz Sine Wave (hanning).eps)...exec
+uted (allowed).
 
-<../lab02/images/Acoustical Chamber (5cm) (uniform).eps>
-File: ../lab02/images/Acoustical Chamber (6cm) (uniform).eps Graphic file (type
- eps)
+Package epstopdf Info: Result file: <../lab02/images/1_03 kHz Sine Wave (hannin
+g)-eps-converted-to.pdf>.
 
-<../lab02/images/Acoustical Chamber (6cm) (uniform).eps>
-File: ../lab02/images/arduino data_0.eps Graphic file (type eps)
+! Package pdftex.def Error: File `../lab02/images/1_03 kHz Sine Wave (hanning)-
+eps-converted-to.pdf' not found: using draft setting.
 
-<../lab02/images/arduino data_0.eps>
-File: ../lab02/images/arduino data_1.eps Graphic file (type eps)
- <../lab02/images/arduino data_1.eps>
-File: ../lab02/images/arduino data_2.eps Graphic file (type eps)
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 ...\textwidth]{1_03 kHz Sine Wave (hanning)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<../lab02/images/arduino data_2.eps> [7] [8] [9]
+
+LaTeX Warning: Float too large for page by 1314.60574pt on input line 116.
+
+Package epstopdf Info: Source file: <../lab02/images/1 kHz Square Wave (uniform
+).eps>
+(epstopdf)                    date: 2021-10-23 23:48:36
+(epstopdf)                    size: 73488 bytes
+(epstopdf)             Output file: <../lab02/images/1 kHz Square Wave (uniform
+)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/1 kH
+z Square Wave (uniform)-eps-converted-to.pdf ../lab02/images/1 kHz Square Wave 
+(uniform).eps>
+(epstopdf)             \includegraphics on input line 120.
+runsystem(miktex-epstopdf --outfile=../lab02/images/1 kHz Square Wave (uniform)
+-eps-converted-to.pdf ../lab02/images/1 kHz Square Wave (uniform).eps)...execut
+ed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/1 kHz Square Wave (uniform
+)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/1 kHz Square Wave (uniform)-e
+ps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 ...=\textwidth]{1 kHz Square Wave (uniform)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/1 kHz Square Wave (hanning
+).eps>
+(epstopdf)                    date: 2021-10-23 23:48:36
+(epstopdf)                    size: 72790 bytes
+(epstopdf)             Output file: <../lab02/images/1 kHz Square Wave (hanning
+)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/1 kH
+z Square Wave (hanning)-eps-converted-to.pdf ../lab02/images/1 kHz Square Wave 
+(hanning).eps>
+(epstopdf)             \includegraphics on input line 121.
+runsystem(miktex-epstopdf --outfile=../lab02/images/1 kHz Square Wave (hanning)
+-eps-converted-to.pdf ../lab02/images/1 kHz Square Wave (hanning).eps)...execut
+ed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/1 kHz Square Wave (hanning
+)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/1 kHz Square Wave (hanning)-e
+ps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121 ...=\textwidth]{1 kHz Square Wave (hanning)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/1_03 kHz Square Wave (unif
+orm).eps>
+(epstopdf)                    date: 2021-10-23 23:48:36
+(epstopdf)                    size: 71029 bytes
+(epstopdf)             Output file: <../lab02/images/1_03 kHz Square Wave (unif
+orm)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/1_03
+ kHz Square Wave (uniform)-eps-converted-to.pdf ../lab02/images/1_03 kHz Square
+ Wave (uniform).eps>
+(epstopdf)             \includegraphics on input line 122.
+runsystem(miktex-epstopdf --outfile=../lab02/images/1_03 kHz Square Wave (unifo
+rm)-eps-converted-to.pdf ../lab02/images/1_03 kHz Square Wave (uniform).eps)...
+executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/1_03 kHz Square Wave (unif
+orm)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/1_03 kHz Square Wave (uniform
+)-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 ...extwidth]{1_03 kHz Square Wave (uniform)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/1_03 kHz Square Wave (hann
+ing).eps>
+(epstopdf)                    date: 2021-10-23 23:48:36
+(epstopdf)                    size: 74427 bytes
+(epstopdf)             Output file: <../lab02/images/1_03 kHz Square Wave (hann
+ing)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/1_03
+ kHz Square Wave (hanning)-eps-converted-to.pdf ../lab02/images/1_03 kHz Square
+ Wave (hanning).eps>
+(epstopdf)             \includegraphics on input line 123.
+runsystem(miktex-epstopdf --outfile=../lab02/images/1_03 kHz Square Wave (hanni
+ng)-eps-converted-to.pdf ../lab02/images/1_03 kHz Square Wave (hanning).eps)...
+executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/1_03 kHz Square Wave (hann
+ing)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/1_03 kHz Square Wave (hanning
+)-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 ...extwidth]{1_03 kHz Square Wave (hanning)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 1285.60574pt on input line 126.
+
+Package epstopdf Info: Source file: <../lab02/images/1 kHz Triangle Wave (unifo
+rm).eps>
+(epstopdf)                    date: 2021-10-23 23:48:34
+(epstopdf)                    size: 58718 bytes
+(epstopdf)             Output file: <../lab02/images/1 kHz Triangle Wave (unifo
+rm)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/1 kH
+z Triangle Wave (uniform)-eps-converted-to.pdf ../lab02/images/1 kHz Triangle W
+ave (uniform).eps>
+(epstopdf)             \includegraphics on input line 130.
+runsystem(miktex-epstopdf --outfile=../lab02/images/1 kHz Triangle Wave (unifor
+m)-eps-converted-to.pdf ../lab02/images/1 kHz Triangle Wave (uniform).eps)...ex
+ecuted (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/1 kHz Triangle Wave (unifo
+rm)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/1 kHz Triangle Wave (uniform)
+-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.130 ...textwidth]{1 kHz Triangle Wave (uniform)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/1 kHz Triange Wave (hannin
+g).eps>
+(epstopdf)                    date: 2021-10-23 23:48:34
+(epstopdf)                    size: 68983 bytes
+(epstopdf)             Output file: <../lab02/images/1 kHz Triange Wave (hannin
+g)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/1 kH
+z Triange Wave (hanning)-eps-converted-to.pdf ../lab02/images/1 kHz Triange Wav
+e (hanning).eps>
+(epstopdf)             \includegraphics on input line 131.
+runsystem(miktex-epstopdf --outfile=../lab02/images/1 kHz Triange Wave (hanning
+)-eps-converted-to.pdf ../lab02/images/1 kHz Triange Wave (hanning).eps)...exec
+uted (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/1 kHz Triange Wave (hannin
+g)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/1 kHz Triange Wave (hanning)-
+eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 ...\textwidth]{1 kHz Triange Wave (hanning)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/1_03 kHz Tringle Wave (uni
+form).eps>
+(epstopdf)                    date: 2021-10-23 23:48:35
+(epstopdf)                    size: 64652 bytes
+(epstopdf)             Output file: <../lab02/images/1_03 kHz Tringle Wave (uni
+form)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/1_03
+ kHz Tringle Wave (uniform)-eps-converted-to.pdf ../lab02/images/1_03 kHz Tring
+le Wave (uniform).eps>
+(epstopdf)             \includegraphics on input line 132.
+runsystem(miktex-epstopdf --outfile=../lab02/images/1_03 kHz Tringle Wave (unif
+orm)-eps-converted-to.pdf ../lab02/images/1_03 kHz Tringle Wave (uniform).eps).
+..executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/1_03 kHz Tringle Wave (uni
+form)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/1_03 kHz Tringle Wave (unifor
+m)-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 ...xtwidth]{1_03 kHz Tringle Wave (uniform)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/1_03 kHz Triangle Wave (ha
+nning).eps>
+(epstopdf)                    date: 2021-10-23 23:48:35
+(epstopdf)                    size: 71246 bytes
+(epstopdf)             Output file: <../lab02/images/1_03 kHz Triangle Wave (ha
+nning)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/1_03
+ kHz Triangle Wave (hanning)-eps-converted-to.pdf ../lab02/images/1_03 kHz Tria
+ngle Wave (hanning).eps>
+(epstopdf)             \includegraphics on input line 133.
+runsystem(miktex-epstopdf --outfile=../lab02/images/1_03 kHz Triangle Wave (han
+ning)-eps-converted-to.pdf ../lab02/images/1_03 kHz Triangle Wave (hanning).eps
+)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/1_03 kHz Triangle Wave (ha
+nning)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/1_03 kHz Triangle Wave (hanni
+ng)-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 ...twidth]{1_03 kHz Triangle Wave (hanning)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 1300.10574pt on input line 136.
+
+Package epstopdf Info: Source file: <../lab02/images/1 kHz and 1_03 kHz Sine Wa
+ve Sum (uniform).eps>
+(epstopdf)                    date: 2021-10-23 23:48:37
+(epstopdf)                    size: 65498 bytes
+(epstopdf)             Output file: <../lab02/images/1 kHz and 1_03 kHz Sine Wa
+ve Sum (uniform)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/1 kH
+z and 1_03 kHz Sine Wave Sum (uniform)-eps-converted-to.pdf ../lab02/images/1 k
+Hz and 1_03 kHz Sine Wave Sum (uniform).eps>
+(epstopdf)             \includegraphics on input line 140.
+runsystem(miktex-epstopdf --outfile=../lab02/images/1 kHz and 1_03 kHz Sine Wav
+e Sum (uniform)-eps-converted-to.pdf ../lab02/images/1 kHz and 1_03 kHz Sine Wa
+ve Sum (uniform).eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/1 kHz and 1_03 kHz Sine Wa
+ve Sum (uniform)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/1 kHz and 1_03 kHz Sine Wave 
+Sum (uniform)-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.140 ...kHz and 1_03 kHz Sine Wave Sum (uniform)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/1 kHz and 1_03 kHz Sine Wa
+ve Sum (hanning).eps>
+(epstopdf)                    date: 2021-10-23 23:48:37
+(epstopdf)                    size: 68556 bytes
+(epstopdf)             Output file: <../lab02/images/1 kHz and 1_03 kHz Sine Wa
+ve Sum (hanning)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/1 kH
+z and 1_03 kHz Sine Wave Sum (hanning)-eps-converted-to.pdf ../lab02/images/1 k
+Hz and 1_03 kHz Sine Wave Sum (hanning).eps>
+(epstopdf)             \includegraphics on input line 141.
+runsystem(miktex-epstopdf --outfile=../lab02/images/1 kHz and 1_03 kHz Sine Wav
+e Sum (hanning)-eps-converted-to.pdf ../lab02/images/1 kHz and 1_03 kHz Sine Wa
+ve Sum (hanning).eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/1 kHz and 1_03 kHz Sine Wa
+ve Sum (hanning)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/1 kHz and 1_03 kHz Sine Wave 
+Sum (hanning)-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.141 ...kHz and 1_03 kHz Sine Wave Sum (hanning)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 314.83786pt on input line 144.
+
+Package epstopdf Info: Source file: <../lab02/images/1 kHz and 1_03 kHz Sine Wa
+ve Product (uniform).eps>
+(epstopdf)                    date: 2021-10-23 23:48:38
+(epstopdf)                    size: 81936 bytes
+(epstopdf)             Output file: <../lab02/images/1 kHz and 1_03 kHz Sine Wa
+ve Product (uniform)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/1 kH
+z and 1_03 kHz Sine Wave Product (uniform)-eps-converted-to.pdf ../lab02/images
+/1 kHz and 1_03 kHz Sine Wave Product (uniform).eps>
+(epstopdf)             \includegraphics on input line 148.
+runsystem(miktex-epstopdf --outfile=../lab02/images/1 kHz and 1_03 kHz Sine Wav
+e Product (uniform)-eps-converted-to.pdf ../lab02/images/1 kHz and 1_03 kHz Sin
+e Wave Product (uniform).eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/1 kHz and 1_03 kHz Sine Wa
+ve Product (uniform)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/1 kHz and 1_03 kHz Sine Wave 
+Product (uniform)-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 ...and 1_03 kHz Sine Wave Product (uniform)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/1 kHz and 1_03 kHz Sine Wa
+ve Product (hanning).eps>
+(epstopdf)                    date: 2021-10-23 23:48:38
+(epstopdf)                    size: 65965 bytes
+(epstopdf)             Output file: <../lab02/images/1 kHz and 1_03 kHz Sine Wa
+ve Product (hanning)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/1 kH
+z and 1_03 kHz Sine Wave Product (hanning)-eps-converted-to.pdf ../lab02/images
+/1 kHz and 1_03 kHz Sine Wave Product (hanning).eps>
+(epstopdf)             \includegraphics on input line 149.
+runsystem(miktex-epstopdf --outfile=../lab02/images/1 kHz and 1_03 kHz Sine Wav
+e Product (hanning)-eps-converted-to.pdf ../lab02/images/1 kHz and 1_03 kHz Sin
+e Wave Product (hanning).eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/1 kHz and 1_03 kHz Sine Wa
+ve Product (hanning)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/1 kHz and 1_03 kHz Sine Wave 
+Product (hanning)-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 ...and 1_03 kHz Sine Wave Product (hanning)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 314.83786pt on input line 152.
+
+Package epstopdf Info: Source file: <../lab02/images/Variety of Windows.eps>
+(epstopdf)                    date: 2021-10-23 23:48:37
+(epstopdf)                    size: 53213 bytes
+(epstopdf)             Output file: <../lab02/images/Variety of Windows-eps-con
+verted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/Vari
+ety of Windows-eps-converted-to.pdf ../lab02/images/Variety of Windows.eps>
+(epstopdf)             \includegraphics on input line 156.
+runsystem(miktex-epstopdf --outfile=../lab02/images/Variety of Windows-eps-conv
+erted-to.pdf ../lab02/images/Variety of Windows.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/Variety of Windows-eps-con
+verted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/Variety of Windows-eps-conver
+ted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.156 ...ics[width=\textwidth]{Variety of Windows}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/Buried Treasure Setting A 
+(uniform).eps>
+(epstopdf)                    date: 2021-10-23 23:48:39
+(epstopdf)                    size: 101313 bytes
+(epstopdf)             Output file: <../lab02/images/Buried Treasure Setting A 
+(uniform)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/Buri
+ed Treasure Setting A (uniform)-eps-converted-to.pdf ../lab02/images/Buried Tre
+asure Setting A (uniform).eps>
+(epstopdf)             \includegraphics on input line 163.
+runsystem(miktex-epstopdf --outfile=../lab02/images/Buried Treasure Setting A (
+uniform)-eps-converted-to.pdf ../lab02/images/Buried Treasure Setting A (unifor
+m).eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/Buried Treasure Setting A 
+(uniform)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/Buried Treasure Setting A (un
+iform)-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 ...dth]{Buried Treasure Setting A (uniform)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/Buried Treasure Setting B 
+(uniform).eps>
+(epstopdf)                    date: 2021-10-23 23:48:39
+(epstopdf)                    size: 101605 bytes
+(epstopdf)             Output file: <../lab02/images/Buried Treasure Setting B 
+(uniform)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/Buri
+ed Treasure Setting B (uniform)-eps-converted-to.pdf ../lab02/images/Buried Tre
+asure Setting B (uniform).eps>
+(epstopdf)             \includegraphics on input line 164.
+runsystem(miktex-epstopdf --outfile=../lab02/images/Buried Treasure Setting B (
+uniform)-eps-converted-to.pdf ../lab02/images/Buried Treasure Setting B (unifor
+m).eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/Buried Treasure Setting B 
+(uniform)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/Buried Treasure Setting B (un
+iform)-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 ...dth]{Buried Treasure Setting B (uniform)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/Buried Treasure Setting C 
+(uniform).eps>
+(epstopdf)                    date: 2021-10-23 23:48:39
+(epstopdf)                    size: 90250 bytes
+(epstopdf)             Output file: <../lab02/images/Buried Treasure Setting C 
+(uniform)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/Buri
+ed Treasure Setting C (uniform)-eps-converted-to.pdf ../lab02/images/Buried Tre
+asure Setting C (uniform).eps>
+(epstopdf)             \includegraphics on input line 165.
+runsystem(miktex-epstopdf --outfile=../lab02/images/Buried Treasure Setting C (
+uniform)-eps-converted-to.pdf ../lab02/images/Buried Treasure Setting C (unifor
+m).eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/Buried Treasure Setting C 
+(uniform)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/Buried Treasure Setting C (un
+iform)-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.165 ...dth]{Buried Treasure Setting C (uniform)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 829.2218pt on input line 168.
+
+[4]
+Package epstopdf Info: Source file: <../lab02/images/arduino data_.eps>
+(epstopdf)                    date: 2021-10-23 23:48:41
+(epstopdf)                    size: 41817 bytes
+(epstopdf)             Output file: <../lab02/images/arduino data_-eps-converte
+d-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/ardu
+ino data_-eps-converted-to.pdf ../lab02/images/arduino data_.eps>
+(epstopdf)             \includegraphics on input line 188.
+runsystem(miktex-epstopdf --outfile=../lab02/images/arduino data_-eps-converted
+-to.pdf ../lab02/images/arduino data_.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/arduino data_-eps-converte
+d-to.pdf>.
+
+
+! Package pdftex.def Error: File `../lab02/images/arduino data_-eps-converted-t
+o.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.188 ...graphics[width=\textwidth]{arduino data_}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/Noise Drive into LRC Filte
+r (uniform).eps>
+(epstopdf)                    date: 2021-10-23 23:48:40
+(epstopdf)                    size: 55952 bytes
+(epstopdf)             Output file: <../lab02/images/Noise Drive into LRC Filte
+r (uniform)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/Nois
+e Drive into LRC Filter (uniform)-eps-converted-to.pdf ../lab02/images/Noise Dr
+ive into LRC Filter (uniform).eps>
+(epstopdf)             \includegraphics on input line 196.
+runsystem(miktex-epstopdf --outfile=../lab02/images/Noise Drive into LRC Filter
+ (uniform)-eps-converted-to.pdf ../lab02/images/Noise Drive into LRC Filter (un
+iform).eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/Noise Drive into LRC Filte
+r (uniform)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/Noise Drive into LRC Filter (
+uniform)-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 ...h]{Noise Drive into LRC Filter (uniform)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/Acoustical Chamber (3cm) (
+uniform).eps>
+(epstopdf)                    date: 2021-10-23 23:48:42
+(epstopdf)                    size: 85195 bytes
+(epstopdf)             Output file: <../lab02/images/Acoustical Chamber (3cm) (
+uniform)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/Acou
+stical Chamber (3cm) (uniform)-eps-converted-to.pdf ../lab02/images/Acoustical 
+Chamber (3cm) (uniform).eps>
+(epstopdf)             \includegraphics on input line 210.
+runsystem(miktex-epstopdf --outfile=../lab02/images/Acoustical Chamber (3cm) (u
+niform)-eps-converted-to.pdf ../lab02/images/Acoustical Chamber (3cm) (uniform)
+.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/Acoustical Chamber (3cm) (
+uniform)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/Acoustical Chamber (3cm) (uni
+form)-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 ...idth]{Acoustical Chamber (3cm) (uniform)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/Acoustical Chamber (4cm) (
+uniform).eps>
+(epstopdf)                    date: 2021-10-23 23:48:42
+(epstopdf)                    size: 90443 bytes
+(epstopdf)             Output file: <../lab02/images/Acoustical Chamber (4cm) (
+uniform)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/Acou
+stical Chamber (4cm) (uniform)-eps-converted-to.pdf ../lab02/images/Acoustical 
+Chamber (4cm) (uniform).eps>
+(epstopdf)             \includegraphics on input line 211.
+runsystem(miktex-epstopdf --outfile=../lab02/images/Acoustical Chamber (4cm) (u
+niform)-eps-converted-to.pdf ../lab02/images/Acoustical Chamber (4cm) (uniform)
+.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/Acoustical Chamber (4cm) (
+uniform)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/Acoustical Chamber (4cm) (uni
+form)-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.211 ...idth]{Acoustical Chamber (4cm) (uniform)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/Acoustical Chamber (5cm) (
+uniform).eps>
+(epstopdf)                    date: 2021-10-23 23:48:42
+(epstopdf)                    size: 82896 bytes
+(epstopdf)             Output file: <../lab02/images/Acoustical Chamber (5cm) (
+uniform)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/Acou
+stical Chamber (5cm) (uniform)-eps-converted-to.pdf ../lab02/images/Acoustical 
+Chamber (5cm) (uniform).eps>
+(epstopdf)             \includegraphics on input line 212.
+runsystem(miktex-epstopdf --outfile=../lab02/images/Acoustical Chamber (5cm) (u
+niform)-eps-converted-to.pdf ../lab02/images/Acoustical Chamber (5cm) (uniform)
+.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/Acoustical Chamber (5cm) (
+uniform)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/Acoustical Chamber (5cm) (uni
+form)-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.212 ...idth]{Acoustical Chamber (5cm) (uniform)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/Acoustical Chamber (6cm) (
+uniform).eps>
+(epstopdf)                    date: 2021-10-23 23:48:42
+(epstopdf)                    size: 84504 bytes
+(epstopdf)             Output file: <../lab02/images/Acoustical Chamber (6cm) (
+uniform)-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/Acou
+stical Chamber (6cm) (uniform)-eps-converted-to.pdf ../lab02/images/Acoustical 
+Chamber (6cm) (uniform).eps>
+(epstopdf)             \includegraphics on input line 213.
+runsystem(miktex-epstopdf --outfile=../lab02/images/Acoustical Chamber (6cm) (u
+niform)-eps-converted-to.pdf ../lab02/images/Acoustical Chamber (6cm) (uniform)
+.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/Acoustical Chamber (6cm) (
+uniform)-eps-converted-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/Acoustical Chamber (6cm) (uni
+form)-eps-converted-to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 ...idth]{Acoustical Chamber (6cm) (uniform)}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 1285.60574pt on input line 216.
+
+Package epstopdf Info: Source file: <../lab02/images/arduino data_0.eps>
+(epstopdf)                    date: 2021-10-23 23:48:41
+(epstopdf)                    size: 53002 bytes
+(epstopdf)             Output file: <../lab02/images/arduino data_0-eps-convert
+ed-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/ardu
+ino data_0-eps-converted-to.pdf ../lab02/images/arduino data_0.eps>
+(epstopdf)             \includegraphics on input line 222.
+runsystem(miktex-epstopdf --outfile=../lab02/images/arduino data_0-eps-converte
+d-to.pdf ../lab02/images/arduino data_0.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/arduino data_0-eps-convert
+ed-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/arduino data_0-eps-converted-
+to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 ...raphics[width=\textwidth]{arduino data_0}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/arduino data_1.eps>
+(epstopdf)                    date: 2021-10-23 23:48:41
+(epstopdf)                    size: 48400 bytes
+(epstopdf)             Output file: <../lab02/images/arduino data_1-eps-convert
+ed-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/ardu
+ino data_1-eps-converted-to.pdf ../lab02/images/arduino data_1.eps>
+(epstopdf)             \includegraphics on input line 223.
+runsystem(miktex-epstopdf --outfile=../lab02/images/arduino data_1-eps-converte
+d-to.pdf ../lab02/images/arduino data_1.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/arduino data_1-eps-convert
+ed-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/arduino data_1-eps-converted-
+to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.223 ...raphics[width=\textwidth]{arduino data_1}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package epstopdf Info: Source file: <../lab02/images/arduino data_2.eps>
+(epstopdf)                    date: 2021-10-23 23:48:42
+(epstopdf)                    size: 44721 bytes
+(epstopdf)             Output file: <../lab02/images/arduino data_2-eps-convert
+ed-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab02/images/ardu
+ino data_2-eps-converted-to.pdf ../lab02/images/arduino data_2.eps>
+(epstopdf)             \includegraphics on input line 224.
+runsystem(miktex-epstopdf --outfile=../lab02/images/arduino data_2-eps-converte
+d-to.pdf ../lab02/images/arduino data_2.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab02/images/arduino data_2-eps-convert
+ed-to.pdf>.
+
+! Package pdftex.def Error: File `../lab02/images/arduino data_2-eps-converted-
+to.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 ...raphics[width=\textwidth]{arduino data_2}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Float too large for page by 800.2218pt on input line 227.
+
+[5] [6]
 No file lab02_writeup.bbl.
-[10]
+
 Underfull \hbox (badness 7415) in paragraph at lines 339--341
 []\OT1/cmr/m/n/12 Nave, R. Res-o-nant RLC Cir-cuits. Hy-per Physics, 2019, hype
 rphysics.phy-
  []
 
-[11] [12]
+[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
+(lab02_writeup.aux)
 
-LaTeX Warning: Text page 13 contains only floats.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-[13] (lab02_writeup.aux) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 29985 strings out of 478928
- 784947 string characters out of 2852560
- 1194171 words of memory out of 3000000
- 47380 multiletter control sequences out of 15000+600000
- 412950 words of font info for 62 fonts, out of 8000000 for 9000
+ 31068 strings out of 478927
+ 818090 string characters out of 2852534
+ 1188370 words of memory out of 3000000
+ 48407 multiletter control sequences out of 15000+600000
+ 413119 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  114i,10n,117p,1237b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\jarde\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
+1200.pk><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jarde/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jarde/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jarde/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ja
+rde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/
+Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.p
+fb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr8.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmsy8.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on lab02_writeup.pdf (19 pages, 191217 bytes).
+PDF statistics:
+ 137 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on lab02_writeup.dvi (13 pages, 46492 bytes).
