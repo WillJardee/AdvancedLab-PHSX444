@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  8 NOV 2021 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  15 NOV 2021 23:18
 entering extended mode
 **./lab03_writeup.tex
 (lab03_writeup.tex
@@ -328,10 +328,6 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count290
 \enitdp@description=\count291
 )
-
-Package siunitx Warning: Option "math-micro" has been removed in this release.
-
-
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplotstable.
 sty
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
@@ -757,21 +753,22 @@ File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 plotstable.code.tex
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
 plotstable.coltype.code.tex)))
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/filecontents\fileconten
-ts.sty
-Package: filecontents 2019/09/20 v1.5 Create an external file from within a LaT
-eX document
-
-
-Package filecontents Warning: This package is obsolete. Disabling it and
-(filecontents)                passing control to the filecontents environment
-(filecontents)                defined by the LaTeX kernel.
-
-)
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 24.
+ (lab03_writeup.aux
 
-No file lab03_writeup.aux.
+LaTeX Warning: Label `fig:opt_trap' multiply defined.
+
+
+LaTeX Warning: Label `fig:opt_trap' multiply defined.
+
+
+LaTeX Warning: Label `fig:opt_trap' multiply defined.
+
+
+LaTeX Warning: Label `fig:opt_trap' multiply defined.
+
+)
 \openout1 = `lab03_writeup.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -788,6 +785,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -873,500 +871,179 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-LaTeX Warning: Citation `youtube' on page 1 undefined on input line 51.
+LaTeX Warning: Citation `microspheres' on page 1 undefined on input line 32.
+
+<../lab03/images/optical_trap.jpg, id=4, 234.8775pt x 216.43875pt>
+File: ../lab03/images/optical_trap.jpg Graphic file (type jpg)
+<use ../lab03/images/optical_trap.jpg>
+Package pdftex.def Info: ../lab03/images/optical_trap.jpg  used on input line 4
+0.
+(pdftex.def)             Requested size: 234.8775pt x 216.43822pt.
+
+LaTeX Warning: Citation `handout' on page 1 undefined on input line 41.
+
+
+LaTeX Warning: Citation `handout' on page 1 undefined on input line 41.
 
 [1
 
 {C:/Users/jarde/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 
-LaTeX Warning: Reference `fig:circuit' on page 2 undefined on input line 64.
+LaTeX Warning: Citation `code paper' on page 2 undefined on input line 53.
 
-[2]
+Package epstopdf Info: Source file: <../lab03/images/delta_x.eps>
+(epstopdf)                    date: 2021-11-15 23:17:09
+(epstopdf)                    size: 61308 bytes
+(epstopdf)             Output file: <../lab03/images/delta_x-eps-converted-to.p
+df>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab03/images/delt
+a_x-eps-converted-to.pdf ../lab03/images/delta_x.eps>
+(epstopdf)             \includegraphics on input line 61.
+runsystem(miktex-epstopdf --outfile=../lab03/images/delta_x-eps-converted-to.pd
+f ../lab03/images/delta_x.eps)...executed (allowed).
 
-LaTeX Warning: Reference `tab:lock_in_LRC' on page 3 undefined on input line 85
-.
+Package epstopdf Info: Result file: <../lab03/images/delta_x-eps-converted-to.p
+df>.
 
-
-LaTeX Warning: File `../images/lab02/circuit.png' not found on input line 95.
-
-
-! Package pdftex.def Error: File `../images/lab02/circuit.png' not found: using
- draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.95 ...cs[width=4in]{../images/lab02/circuit.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[3]
-
-LaTeX Warning: Reference `fig:1 sine uniform' on page 4 undefined on input line
- 115.
-
-
-LaTeX Warning: Reference `fig:1 sine hanning' on page 4 undefined on input line
- 115.
-
-
-LaTeX Warning: Reference `fig:1.03 sine uniform' on page 4 undefined on input l
-ine 115.
-
-
-LaTeX Warning: Reference `fig:1.03 sine hanning' on page 4 undefined on input l
-ine 115.
-
-
-LaTeX Warning: Reference `fig:1.03 sine hanning' on page 4 undefined on input l
-ine 115.
-
-
-LaTeX Warning: Reference `fig:1 sine uniform' on page 4 undefined on input line
- 115.
-
-
-LaTeX Warning: File `../images/lab02/1 kHz Sine Wave (uniform).png' not found o
-n input line 120.
-
-
-! Package pdftex.def Error: File `../images/lab02/1 kHz Sine Wave (uniform).png
-' not found: using draft setting.
+! Package pdftex.def Error: File `../lab03/images/delta_x-eps-converted-to.pdf'
+ not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.120 ...ages/lab02/1 kHz Sine Wave (uniform).png}
+l.61 ...graphics[width=0.5\textwidth]{delta_x.eps}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `../images/lab02/1 kHz Sine Wave (hanning).png' not found o
-n input line 125.
+LaTeX Warning: Citation `handout' on page 2 undefined on input line 62.
 
 
-! Package pdftex.def Error: File `../images/lab02/1 kHz Sine Wave (hanning).png
-' not found: using draft setting.
+LaTeX Warning: Citation `handout' on page 2 undefined on input line 62.
+
+Package epstopdf Info: Source file: <../lab03/images/delta_y.eps>
+(epstopdf)                    date: 2021-11-15 23:17:10
+(epstopdf)                    size: 43626 bytes
+(epstopdf)             Output file: <../lab03/images/delta_y-eps-converted-to.p
+df>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab03/images/delt
+a_y-eps-converted-to.pdf ../lab03/images/delta_y.eps>
+(epstopdf)             \includegraphics on input line 67.
+runsystem(miktex-epstopdf --outfile=../lab03/images/delta_y-eps-converted-to.pd
+f ../lab03/images/delta_y.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab03/images/delta_y-eps-converted-to.p
+df>.
+
+! Package pdftex.def Error: File `../lab03/images/delta_y-eps-converted-to.pdf'
+ not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 ...ages/lab02/1 kHz Sine Wave (hanning).png}
+l.67 ...graphics[width=0.5\textwidth]{delta_y.eps}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `../images/lab02/1_03 kHz Sine Wave (uniform).png' not foun
-d on input line 130.
+LaTeX Warning: Citation `handout' on page 2 undefined on input line 68.
 
 
-! Package pdftex.def Error: File `../images/lab02/1_03 kHz Sine Wave (uniform).
-png' not found: using draft setting.
+LaTeX Warning: Citation `handout' on page 2 undefined on input line 68.
+
+Package epstopdf Info: Source file: <../lab03/images/v_x.eps>
+(epstopdf)                    date: 2021-11-15 23:17:10
+(epstopdf)                    size: 59079 bytes
+(epstopdf)             Output file: <../lab03/images/v_x-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab03/images/v_x-
+eps-converted-to.pdf ../lab03/images/v_x.eps>
+(epstopdf)             \includegraphics on input line 73.
+runsystem(miktex-epstopdf --outfile=../lab03/images/v_x-eps-converted-to.pdf ..
+/lab03/images/v_x.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab03/images/v_x-eps-converted-to.pdf>.
+
+
+! Package pdftex.def Error: File `../lab03/images/v_x-eps-converted-to.pdf' not
+ found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130 ...s/lab02/1_03 kHz Sine Wave (uniform).png}
+l.73 ...ludegraphics[width=0.5\textwidth]{v_x.eps}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: File `../images/lab02/1_03 kHz Sine Wave (hanning).png' not foun
-d on input line 135.
+LaTeX Warning: Citation `handout' on page 2 undefined on input line 74.
 
 
-! Package pdftex.def Error: File `../images/lab02/1_03 kHz Sine Wave (hanning).
-png' not found: using draft setting.
+LaTeX Warning: Citation `handout' on page 2 undefined on input line 74.
+
+Package epstopdf Info: Source file: <../lab03/images/v_y.eps>
+(epstopdf)                    date: 2021-11-15 23:17:11
+(epstopdf)                    size: 60529 bytes
+(epstopdf)             Output file: <../lab03/images/v_y-eps-converted-to.pdf>
+(epstopdf)             Command: <miktex-epstopdf --outfile=../lab03/images/v_y-
+eps-converted-to.pdf ../lab03/images/v_y.eps>
+(epstopdf)             \includegraphics on input line 79.
+runsystem(miktex-epstopdf --outfile=../lab03/images/v_y-eps-converted-to.pdf ..
+/lab03/images/v_y.eps)...executed (allowed).
+
+Package epstopdf Info: Result file: <../lab03/images/v_y-eps-converted-to.pdf>.
+
+
+! Package pdftex.def Error: File `../lab03/images/v_y-eps-converted-to.pdf' not
+ found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 ...s/lab02/1_03 kHz Sine Wave (hanning).png}
+l.79 ...ludegraphics[width=0.5\textwidth]{v_y.eps}
                                                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Float too large for page by 1310.50572pt on input line 139.
+LaTeX Warning: Citation `handout' on page 2 undefined on input line 80.
 
 
-LaTeX Warning: File `../images/lab02/1 kHz Square Wave (uniform).png' not found
- on input line 144.
+LaTeX Warning: Citation `handout' on page 2 undefined on input line 80.
 
-
-! Package pdftex.def Error: File `../images/lab02/1 kHz Square Wave (uniform).p
-ng' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.144 ...es/lab02/1 kHz Square Wave (uniform).png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `../images/lab02/1 kHz Square Wave (hanning).png' not found
- on input line 149.
-
-
-! Package pdftex.def Error: File `../images/lab02/1 kHz Square Wave (hanning).p
-ng' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.149 ...es/lab02/1 kHz Square Wave (hanning).png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `../images/lab02/1_03 kHz Square Wave (uniform).png' not fo
-und on input line 154.
-
-
-! Package pdftex.def Error: File `../images/lab02/1_03 kHz Square Wave (uniform
-).png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.154 ...lab02/1_03 kHz Square Wave (uniform).png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `../images/lab02/1_03 kHz Square Wave (hanning).png' not fo
-und on input line 159.
-
-
-! Package pdftex.def Error: File `../images/lab02/1_03 kHz Square Wave (hanning
-).png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.159 ...lab02/1_03 kHz Square Wave (hanning).png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Float too large for page by 1310.50572pt on input line 163.
-
-
-LaTeX Warning: File `../images/lab02/1 kHz Triangle Wave (uniform).png' not fou
-nd on input line 168.
-
-
-! Package pdftex.def Error: File `../images/lab02/1 kHz Triangle Wave (uniform)
-.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.168 .../lab02/1 kHz Triangle Wave (uniform).png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `../images/lab02/1 kHz Triange Wave (hanning).png' not foun
-d on input line 173.
-
-
-! Package pdftex.def Error: File `../images/lab02/1 kHz Triange Wave (hanning).
-png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.173 ...s/lab02/1 kHz Triange Wave (hanning).png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `../images/lab02/1_03 kHz Tringle Wave (uniform).png' not f
-ound on input line 178.
-
-
-! Package pdftex.def Error: File `../images/lab02/1_03 kHz Tringle Wave (unifor
-m).png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 ...ab02/1_03 kHz Tringle Wave (uniform).png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `../images/lab02/1_03 kHz Triangle Wave (hanning).png' not 
-found on input line 183.
-
-
-! Package pdftex.def Error: File `../images/lab02/1_03 kHz Triangle Wave (hanni
-ng).png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.183 ...b02/1_03 kHz Triangle Wave (hanning).png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Float too large for page by 1310.50572pt on input line 187.
-
-[4]
-
-LaTeX Warning: Reference `fig:various windows' on page 5 undefined on input lin
-e 191.
-
-
-LaTeX Warning: File `../images/lab02/1 kHz and 1_03 kHz Sine Wave Sum (uniform)
-.png' not found on input line 196.
-
-
-! Package pdftex.def Error: File `../images/lab02/1 kHz and 1_03 kHz Sine Wave 
-Sum (uniform).png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 ...and 1_03 kHz Sine Wave Sum (uniform).png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `../images/lab02/1 kHz and 1_03 kHz Sine Wave Sum (hanning)
-.png' not found on input line 201.
-
-
-! Package pdftex.def Error: File `../images/lab02/1 kHz and 1_03 kHz Sine Wave 
-Sum (hanning).png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.201 ...and 1_03 kHz Sine Wave Sum (hanning).png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Float too large for page by 329.53786pt on input line 205.
-
-
-LaTeX Warning: File `../images/lab02/1 kHz and 1_03 kHz Sine Wave Product (unif
-orm).png' not found on input line 210.
-
-
-! Package pdftex.def Error: File `../images/lab02/1 kHz and 1_03 kHz Sine Wave 
-Product (uniform).png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.210 ...1_03 kHz Sine Wave Product (uniform).png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `../images/lab02/1 kHz and 1_03 kHz Sine Wave Product (hann
-ing).png' not found on input line 215.
-
-
-! Package pdftex.def Error: File `../images/lab02/1 kHz and 1_03 kHz Sine Wave 
-Product (hanning).png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.215 ...1_03 kHz Sine Wave Product (hanning).png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Float too large for page by 329.53786pt on input line 219.
-
-
-LaTeX Warning: File `../images/lab02/Variety of Windows.png' not found on input
- line 223.
-
-
-! Package pdftex.def Error: File `../images/lab02/Variety of Windows.png' not f
-ound: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.223 ...]{../images/lab02/Variety of Windows.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Reference `fig:buried A' on page 5 undefined on input line 228.
-
-
-LaTeX Warning: Reference `fig:buried B' on page 5 undefined on input line 228.
-
-
-LaTeX Warning: Reference `fig:buried C' on page 5 undefined on input line 228.
-
-
-LaTeX Warning: File `../images/lab02/Buried Treasure Setting A (uniform).png' n
-ot found on input line 233.
-
-
-! Package pdftex.def Error: File `../images/lab02/Buried Treasure Setting A (un
-iform).png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.233 .../Buried Treasure Setting A (uniform).png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `../images/lab02/Buried Treasure Setting B (uniform).png' n
-ot found on input line 238.
-
-
-! Package pdftex.def Error: File `../images/lab02/Buried Treasure Setting B (un
-iform).png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 .../Buried Treasure Setting B (uniform).png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `../images/lab02/Buried Treasure Setting C (uniform).png' n
-ot found on input line 243.
-
-
-! Package pdftex.def Error: File `../images/lab02/Buried Treasure Setting C (un
-iform).png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.243 .../Buried Treasure Setting C (uniform).png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Float too large for page by 820.02179pt on input line 247.
-
-
-LaTeX Warning: File `../images/lab02/Noise Drive into LRC Filter (uniform).png'
- not found on input line 252.
-
-
-! Package pdftex.def Error: File `../images/lab02/Noise Drive into LRC Filter (
-uniform).png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.252 ...oise Drive into LRC Filter (uniform).png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `../images/lab02/arduino data_.png' not found on input line
- 259.
-
-
-! Package pdftex.def Error: File `../images/lab02/arduino data_.png' not found:
- using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.259 ...width]{../images/lab02/arduino data_.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] (lab03_writeup.aux)
+[2 <../lab03/images/optical_trap.jpg>] [3] [4] [5] (lab03_writeup.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30957 strings out of 478927
- 827716 string characters out of 2852534
- 1164644 words of memory out of 3000000
- 48303 multiletter control sequences out of 15000+600000
- 414360 words of font info for 69 fonts, out of 8000000 for 9000
+ 30170 strings out of 478927
+ 783535 string characters out of 2852534
+ 1160558 words of memory out of 3000000
+ 47569 multiletter control sequences out of 15000+600000
+ 413753 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 109i,8n,117p,990b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 109i,6n,117p,884b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmex10.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jarde/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jarde/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jarde/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jarde/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/
-jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:
-/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.
-pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmsy8.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmtt12.pfb>
-Output written on lab03_writeup.pdf (15 pages, 175383 bytes).
+fonts/cm/cmmi12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jarde/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jarde/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jarde/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on lab03_writeup.pdf (5 pages, 311035 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
