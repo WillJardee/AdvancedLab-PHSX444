@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  15 NOV 2021 23:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  16 NOV 2021 03:22
 entering extended mode
 **./lab03_writeup.tex
 (lab03_writeup.tex
@@ -755,20 +755,7 @@ plotstable.code.tex
 plotstable.coltype.code.tex)))
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 24.
- (lab03_writeup.aux
-
-LaTeX Warning: Label `fig:opt_trap' multiply defined.
-
-
-LaTeX Warning: Label `fig:opt_trap' multiply defined.
-
-
-LaTeX Warning: Label `fig:opt_trap' multiply defined.
-
-
-LaTeX Warning: Label `fig:opt_trap' multiply defined.
-
-)
+ (lab03_writeup.aux)
 \openout1 = `lab03_writeup.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -870,9 +857,6 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
 (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-LaTeX Warning: Citation `microspheres' on page 1 undefined on input line 32.
-
 <../lab03/images/optical_trap.jpg, id=4, 234.8775pt x 216.43875pt>
 File: ../lab03/images/optical_trap.jpg Graphic file (type jpg)
 <use ../lab03/images/optical_trap.jpg>
@@ -880,170 +864,116 @@ Package pdftex.def Info: ../lab03/images/optical_trap.jpg  used on input line 4
 0.
 (pdftex.def)             Requested size: 234.8775pt x 216.43822pt.
 
-LaTeX Warning: Citation `handout' on page 1 undefined on input line 41.
-
-
-LaTeX Warning: Citation `handout' on page 1 undefined on input line 41.
-
 [1
 
-{C:/Users/jarde/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+{C:/Users/jarde/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2 <../lab03/im
+ages/optical_trap.jpg>]
+<../lab03/images/primative_plot.pdf, id=23, 722.7pt x 361.35pt>
+File: ../lab03/images/primative_plot.pdf Graphic file (type pdf)
+<use ../lab03/images/primative_plot.pdf>
+Package pdftex.def Info: ../lab03/images/primative_plot.pdf  used on input line
+ 92.
+(pdftex.def)             Requested size: 361.3491pt x 180.67456pt.
+<../lab03/images/delta_x_fft.pdf, id=24, 722.7pt x 216.81pt>
+File: ../lab03/images/delta_x_fft.pdf Graphic file (type pdf)
+<use ../lab03/images/delta_x_fft.pdf>
+Package pdftex.def Info: ../lab03/images/delta_x_fft.pdf  used on input line 99
+.
+(pdftex.def)             Requested size: 469.75502pt x 140.92813pt.
+<../lab03/images/delta_y_fft.pdf, id=25, 722.7pt x 216.81pt>
+File: ../lab03/images/delta_y_fft.pdf Graphic file (type pdf)
+<use ../lab03/images/delta_y_fft.pdf>
+Package pdftex.def Info: ../lab03/images/delta_y_fft.pdf  used on input line 10
+6.
+(pdftex.def)             Requested size: 469.75502pt x 140.92813pt.
+<../lab03/images/delta_x.pdf, id=26, 1300.86pt x 289.08pt>
+File: ../lab03/images/delta_x.pdf Graphic file (type pdf)
+<use ../lab03/images/delta_x.pdf>
+Package pdftex.def Info: ../lab03/images/delta_x.pdf  used on input line 113.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab03/images/delta_y.pdf, id=27, 1300.86pt x 289.08pt>
+File: ../lab03/images/delta_y.pdf Graphic file (type pdf)
+<use ../lab03/images/delta_y.pdf>
+Package pdftex.def Info: ../lab03/images/delta_y.pdf  used on input line 120.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+ [3 <../lab03/images/primative_plot.pdf>] [4 <../lab03/images/delta_x_fft.pdf> 
+<../lab03/images/delta_y_fft.pdf
 
-LaTeX Warning: Citation `code paper' on page 2 undefined on input line 53.
+pdfTeX warning: pdflatex (file ../lab03/images/delta_y_fft.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+> <../lab03/images/delta_x.pdf
 
-Package epstopdf Info: Source file: <../lab03/images/delta_x.eps>
-(epstopdf)                    date: 2021-11-15 23:17:09
-(epstopdf)                    size: 61308 bytes
-(epstopdf)             Output file: <../lab03/images/delta_x-eps-converted-to.p
-df>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../lab03/images/delt
-a_x-eps-converted-to.pdf ../lab03/images/delta_x.eps>
-(epstopdf)             \includegraphics on input line 61.
-runsystem(miktex-epstopdf --outfile=../lab03/images/delta_x-eps-converted-to.pd
-f ../lab03/images/delta_x.eps)...executed (allowed).
+pdfTeX warning: pdflatex (file ../lab03/images/delta_x.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>]
+Overfull \hbox (0.85628pt too wide) in paragraph at lines 129--130
+[]\OT1/cmr/m/n/12 In fit-ting the $(\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 )[]$ dat
+a (Fig-ure 5[]), the ef-fec-tive spring con-stant came out to $0\OML/cmm/m/it/1
+2 :\OT1/cmr/m/n/12 36\OML/cmm/m/it/12 pN=m$\OT1/cmr/m/n/12 .
+ []
 
-Package epstopdf Info: Result file: <../lab03/images/delta_x-eps-converted-to.p
-df>.
+<../lab03/images/v_x.pdf, id=202, 1300.86pt x 289.08pt>
+File: ../lab03/images/v_x.pdf Graphic file (type pdf)
+<use ../lab03/images/v_x.pdf>
+Package pdftex.def Info: ../lab03/images/v_x.pdf  used on input line 134.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab03/images/v_y.pdf, id=203, 1300.86pt x 289.08pt>
+File: ../lab03/images/v_y.pdf Graphic file (type pdf)
+<use ../lab03/images/v_y.pdf>
+Package pdftex.def Info: ../lab03/images/v_y.pdf  used on input line 140.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+[5 <../lab03/images/delta_y.pdf> <../lab03/images/v_x.pdf
 
-! Package pdftex.def Error: File `../lab03/images/delta_x-eps-converted-to.pdf'
- not found: using draft setting.
+pdfTeX warning: pdflatex (file ../lab03/images/v_x.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>] (lab03_writeup.bbl
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.61 ...graphics[width=0.5\textwidth]{delta_x.eps}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-
-LaTeX Warning: Citation `handout' on page 2 undefined on input line 62.
-
-
-LaTeX Warning: Citation `handout' on page 2 undefined on input line 62.
-
-Package epstopdf Info: Source file: <../lab03/images/delta_y.eps>
-(epstopdf)                    date: 2021-11-15 23:17:10
-(epstopdf)                    size: 43626 bytes
-(epstopdf)             Output file: <../lab03/images/delta_y-eps-converted-to.p
-df>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../lab03/images/delt
-a_y-eps-converted-to.pdf ../lab03/images/delta_y.eps>
-(epstopdf)             \includegraphics on input line 67.
-runsystem(miktex-epstopdf --outfile=../lab03/images/delta_y-eps-converted-to.pd
-f ../lab03/images/delta_y.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../lab03/images/delta_y-eps-converted-to.p
-df>.
-
-! Package pdftex.def Error: File `../lab03/images/delta_y-eps-converted-to.pdf'
- not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.67 ...graphics[width=0.5\textwidth]{delta_y.eps}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `handout' on page 2 undefined on input line 68.
-
-
-LaTeX Warning: Citation `handout' on page 2 undefined on input line 68.
-
-Package epstopdf Info: Source file: <../lab03/images/v_x.eps>
-(epstopdf)                    date: 2021-11-15 23:17:10
-(epstopdf)                    size: 59079 bytes
-(epstopdf)             Output file: <../lab03/images/v_x-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../lab03/images/v_x-
-eps-converted-to.pdf ../lab03/images/v_x.eps>
-(epstopdf)             \includegraphics on input line 73.
-runsystem(miktex-epstopdf --outfile=../lab03/images/v_x-eps-converted-to.pdf ..
-/lab03/images/v_x.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../lab03/images/v_x-eps-converted-to.pdf>.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+[]\OT1/cmr/m/n/12 \Polyethylene (PE) Pre-ci-sion Mi-cro-spheres, Beads, Mi-crop
+ar-ti-cles -
+ []
 
 
-! Package pdftex.def Error: File `../lab03/images/v_x-eps-converted-to.pdf' not
- found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 ...ludegraphics[width=0.5\textwidth]{v_x.eps}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+\OT1/cmr/m/n/12 Se-lec-tion of Color, Den-sity, Sizes 1mi-cron to 3mm." Co-sphe
+ric,
+ []
 
 
-LaTeX Warning: Citation `handout' on page 2 undefined on input line 74.
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+\OT1/cmr/m/n/12 www.cospheric.com/polyethylene[]PE[]microspheres[]beads.htm. Ac
+-cessed 16 Nov.
+ []
 
-
-LaTeX Warning: Citation `handout' on page 2 undefined on input line 74.
-
-Package epstopdf Info: Source file: <../lab03/images/v_y.eps>
-(epstopdf)                    date: 2021-11-15 23:17:11
-(epstopdf)                    size: 60529 bytes
-(epstopdf)             Output file: <../lab03/images/v_y-eps-converted-to.pdf>
-(epstopdf)             Command: <miktex-epstopdf --outfile=../lab03/images/v_y-
-eps-converted-to.pdf ../lab03/images/v_y.eps>
-(epstopdf)             \includegraphics on input line 79.
-runsystem(miktex-epstopdf --outfile=../lab03/images/v_y-eps-converted-to.pdf ..
-/lab03/images/v_y.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <../lab03/images/v_y-eps-converted-to.pdf>.
-
-
-! Package pdftex.def Error: File `../lab03/images/v_y-eps-converted-to.pdf' not
- found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.79 ...ludegraphics[width=0.5\textwidth]{v_y.eps}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation `handout' on page 2 undefined on input line 80.
-
-
-LaTeX Warning: Citation `handout' on page 2 undefined on input line 80.
-
-[2 <../lab03/images/optical_trap.jpg>] [3] [4] [5] (lab03_writeup.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[6 <../lab03/images/v_y.pdf>] [7] (lab03_writeup.aux) ) 
 Here is how much of TeX's memory you used:
- 30170 strings out of 478927
- 783535 string characters out of 2852534
- 1160558 words of memory out of 3000000
- 47569 multiletter control sequences out of 15000+600000
- 413753 words of font info for 67 fonts, out of 8000000 for 9000
+ 30227 strings out of 478927
+ 785299 string characters out of 2852534
+ 1161557 words of memory out of 3000000
+ 47620 multiletter control sequences out of 15000+600000
+ 414205 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 109i,6n,117p,884b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jarde/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jarde/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jarde/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on lab03_writeup.pdf (5 pages, 311035 bytes).
+ 109i,7n,117p,1353b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/jarde/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jarde
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Use
+rs/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pf
+b><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi6.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jarde/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/jarde/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/jarde/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jar
+de/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on lab03_writeup.pdf (7 pages, 581597 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 419 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

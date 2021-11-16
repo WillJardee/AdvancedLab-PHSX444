@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  8 NOV 2021 17:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  16 NOV 2021 01:49
 entering extended mode
 **./lab02_writeup.tex
 (lab02_writeup.tex
@@ -1734,19 +1734,58 @@ rphysics.phy-
  []
 
 [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
+(lab02_writeup.aux) ) 
+Here is how much of TeX's memory you used:
+ 31068 strings out of 478927
+ 818090 string characters out of 2852534
+ 1188369 words of memory out of 3000000
+ 48407 multiletter control sequences out of 15000+600000
+ 413119 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 114i,10n,117p,1237b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\jarde\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecrm1200.pk><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jarde/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jarde/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jarde/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users
+/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr17.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr6.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr8.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jarde/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jarde/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on lab02_writeup.pdf (19 pages, 191216 bytes).
+PDF statistics:
+ 137 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+OT1/cmr/m/n/12 Nave, R. Res-o-nant RLC Cir-cuits. Hy-per Physics, 2019, hype
+rphysics.phy-
+ []
+
+[7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19]
 (lab02_writeup.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 31068 strings out of 478927
- 818090 string characters out of 2852534
- 1188370 words of memory out of 3000000
- 48407 multiletter control sequences out of 15000+600000
- 413119 words of font info for 63 fonts, out of 8000000 for 9000
+ 31069 strings out of 478927
+ 818105 string characters out of 2852534
+ 1188369 words of memory out of 3000000
+ 48408 multiletter control sequences out of 15000+600000
+ 413426 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,10n,117p,1237b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,10n,117p,1246b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\jarde\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
 1200.pk><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -1763,7 +1802,7 @@ fb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 onts/cm/cmsy10.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmsy8.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on lab02_writeup.pdf (19 pages, 191217 bytes).
+Output written on lab02_writeup.pdf (19 pages, 191822 bytes).
 PDF statistics:
  137 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
