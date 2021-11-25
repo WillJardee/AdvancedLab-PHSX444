@@ -120,6 +120,7 @@ def main(sets):
     data_cc = np.zeros((sets['N_images'], 3))
 
     print('Running analysis for ' + sets["directory_images"])
+    print('Target: ' + sets['directory_results'] + "/" + sets['output_file'])
     print(" % % %" + " " * 4 + "|" + "=" * (sets['progress_bar_len']) + "|" + "\n")
 
     run_lis = [None] * (sets['num_runs'] + 1)
@@ -142,15 +143,15 @@ if __name__ == "__main__":
     settings = {
         'progress_bar_len': 50,
 
-        'N_horizontal_pixels': 200,
-        'N_vertical_pixels': 200,
+        'N_horizontal_pixels': 220,
+        'N_vertical_pixels': 220,
         'image_max_value': 255,
 
-        'directory_images': "./TheRealDay2lab04ForRealThisIsTheOneWeWant/RefreshRateDataandTransient/paulTRAP36",
-        'directory_results': "./processed_data",
-        'output_file': "data_36.csv",
+        'directory_images': "./group02_data/198 Hz fist bump #1",
+        'directory_results': "./group02_data/processed_data",
+        'output_file': "data_05.csv",
 
-        'N_images': 1000,
+        'N_images': 2000,
         'upsample_factor': 100,
         'num_runs': 4,
     }
