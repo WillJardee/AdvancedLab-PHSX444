@@ -1,0 +1,18 @@
+data, variable, bins, image_name, notes
+1, x, 35, data_01_x_vel.pdf,
+1, y, 100, data_01_y_vel.pdf,
+2, x, 200, data_02_x_vel.pdf,
+2, y, 200, data_02_y_vel.pdf,
+3, x, 200, data_03_x_vel.pdf,
+3, y, 100, data_03_y_vel.pdf,
+4, x, 2000, data_04_x_vel.pdf,
+4, y, 5000, data_04_y_vel.pdf,
+5, x, 2000, data_05_x_vel.pdf,
+5, y, 1000, data_05_y_vel.pdf,
+33, x, 100, data_33_x_vel.pdf,
+33, y, 1000, data_33_y_vel.pdf,
+36, x, 100, data_36_x_vel.pdf,
+36, y, 1000, data_36_y_vel.pdf,
+
+
+

@@ -1,0 +1,509 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  26 NOV 2021 15:55
+entering extended mode
+**./lab04_writeup.tex
+(lab04_writeup.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-08-27>
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks16
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen139
+))
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count190
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count191
+\leftroot@=\count192
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count193
+\DOTSCASE@=\count194
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count195
+\c@MaxMatrixCols=\count196
+\dotsspace@=\muskip16
+\c@parentequation=\count197
+\dspbrk@lvl=\count198
+\tag@help=\toks18
+\row@=\count199
+\column@=\count266
+\maxfields@=\count267
+\andhelp@=\toks19
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks20
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+)
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count268
+\Gm@cntv=\count269
+\c@Gm@tempcnt=\count270
+\Gm@bindingoffset=\dimen148
+\Gm@wd@mp=\dimen149
+\Gm@odd@mp=\dimen150
+\Gm@even@mp=\dimen151
+\Gm@layoutwidth=\dimen152
+\Gm@layoutheight=\dimen153
+\Gm@layouthoffset=\dimen154
+\Gm@layoutvoffset=\dimen155
+\Gm@dimlist=\toks23
+
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg
+))
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
+.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.d
+ef
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen156
+\Gin@req@width=\dimen157
+)
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen158
+\captionmargin@=\dimen159
+\captionwidth=\dimen160
+\caption@tempdima=\dimen161
+\caption@indent=\dimen162
+\caption@parindent=\dimen163
+\caption@hangindent=\dimen164
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count271
+\c@continuedfloat=\count272
+)
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
+dftex.def
+File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count273
+\l__pdf_internal_box=\box52
+) (lab04_writeup.aux)
+\openout1 = `lab04_writeup.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-40.0pt
+* \headheight=15.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
+mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count274
+\scratchdimen=\dimen165
+\scratchbox=\box53
+\nofMPsegments=\count275
+\nofMParguments=\count276
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count277
+\MPscratchDim=\dimen166
+\MPnumerator=\count278
+\makeMPintoPDFobject=\count279
+\everyMPtoPDFconversion=\toks25
+)
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
+-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys
+.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+
+
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+
+
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<../lab04/images/data_33_x_pos.pdf, id=1, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_33_x_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_33_x_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_33_x_pos.pdf  used on input line 
+49.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_33_x_vel.pdf, id=2, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_33_x_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_33_x_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_33_x_vel.pdf  used on input line 
+52.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_33_y_pos.pdf, id=3, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_33_y_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_33_y_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_33_y_pos.pdf  used on input line 
+59.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_33_y_vel.pdf, id=4, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_33_y_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_33_y_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_33_y_vel.pdf  used on input line 
+62.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_36_x_pos.pdf, id=5, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_36_x_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_36_x_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_36_x_pos.pdf  used on input line 
+69.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_36_x_vel.pdf, id=6, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_36_x_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_36_x_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_36_x_vel.pdf  used on input line 
+72.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_01_y_pos.pdf, id=7, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_01_y_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_01_y_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_01_y_pos.pdf  used on input line 
+81.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_01_x_pos.pdf, id=8, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_01_x_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_01_x_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_01_x_pos.pdf  used on input line 
+84.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+
+[1
+
+{C:/Users/WillsPc/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <../lab04/imag
+es/data_33_x_pos.pdf> <../lab04/images/data_33_x_vel.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_33_x_vel.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>]
+<../lab04/images/data_03_y_pos.pdf, id=117, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_03_y_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_03_y_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_03_y_pos.pdf  used on input line 
+91.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_03_x_pos.pdf, id=118, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_03_x_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_03_x_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_03_x_pos.pdf  used on input line 
+94.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_04_y_pos.pdf, id=119, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_04_y_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_04_y_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_04_y_pos.pdf  used on input line 
+101.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_04_x_pos.pdf, id=120, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_04_x_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_04_x_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_04_x_pos.pdf  used on input line 
+104.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_02_y_pos.pdf, id=121, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_02_y_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_02_y_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_02_y_pos.pdf  used on input line 
+115.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_02_x_pos.pdf, id=122, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_02_x_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_02_x_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_02_x_pos.pdf  used on input line 
+118.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_05_y_pos.pdf, id=123, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_05_y_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_05_y_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_05_y_pos.pdf  used on input line 
+125.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_05_x_pos.pdf, id=124, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_05_x_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_05_x_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_05_x_pos.pdf  used on input line 
+128.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_01_y_vel.pdf, id=125, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_01_y_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_01_y_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_01_y_vel.pdf  used on input line 
+137.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_03_y_vel.pdf, id=126, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_03_y_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_03_y_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_03_y_vel.pdf  used on input line 
+140.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_04_y_vel.pdf, id=127, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_04_y_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_04_y_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_04_y_vel.pdf  used on input line 
+143.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_01_x_vel.pdf, id=128, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_01_x_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_01_x_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_01_x_vel.pdf  used on input line 
+151.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_03_x_vel.pdf, id=129, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_03_x_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_03_x_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_03_x_vel.pdf  used on input line 
+154.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_04_x_vel.pdf, id=130, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_04_x_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_04_x_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_04_x_vel.pdf  used on input line 
+157.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_02_y_vel.pdf, id=131, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_02_y_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_02_y_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_02_y_vel.pdf  used on input line 
+164.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_05_y_vel.pdf, id=132, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_05_y_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_05_y_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_05_y_vel.pdf  used on input line 
+167.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_02_x_vel.pdf, id=133, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_02_x_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_02_x_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_02_x_vel.pdf  used on input line 
+170.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/data_05_x_vel.pdf, id=134, 1300.86pt x 289.08pt>
+File: ../lab04/images/data_05_x_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_05_x_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_05_x_vel.pdf  used on input line 
+173.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+
+No file lab04_writeup.bbl.
+[2 <../lab04/images/data_33_y_pos.pdf> <../lab04/images/data_33_y_vel.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_33_y_vel.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>] [3 <../lab04/images/data_36_x_pos.pdf> <../lab04/images/data_36_x_vel.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_36_x_vel.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <../lab04/images/data_01_y_pos.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_01_y_pos.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <../lab04/images/data_01_x_pos.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_01_x_pos.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>] [4 <../lab04/images/data_03_y_pos.pdf> <../lab04/images/data_03_x_pos.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_03_x_pos.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <../lab04/images/data_04_y_pos.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_04_y_pos.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <../lab04/images/data_04_x_pos.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_04_x_pos.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>] [5 <../lab04/images/data_02_y_pos.pdf> <../lab04/images/data_02_x_pos.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_02_x_pos.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <../lab04/images/data_05_y_pos.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_05_y_pos.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <../lab04/images/data_05_x_pos.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_05_x_pos.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>] [6 <../lab04/images/data_01_y_vel.pdf> <../lab04/images/data_03_y_vel.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_03_y_vel.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <../lab04/images/data_04_y_vel.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_04_y_vel.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>] [7 <../lab04/images/data_01_x_vel.pdf> <../lab04/images/data_03_x_vel.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_03_x_vel.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <../lab04/images/data_04_x_vel.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_04_x_vel.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>] [8 <../lab04/images/data_02_y_vel.pdf> <../lab04/images/data_05_y_vel.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_05_y_vel.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <../lab04/images/data_02_x_vel.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_02_x_vel.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <../lab04/images/data_05_x_vel.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_05_x_vel.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+>] (lab04_writeup.aux) ) 
+Here is how much of TeX's memory you used:
+ 4365 strings out of 478927
+ 72707 string characters out of 2851586
+ 367683 words of memory out of 3000000
+ 22187 multiletter control sequences out of 15000+600000
+ 407539 words of font info for 43 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,6n,66p,242b,314s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/WillsPc/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb><C:/Users/WillsPc/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/WillsPc/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on lab04_writeup.pdf (8 pages, 1612671 bytes).
+PDF statistics:
+ 1408 PDF objects out of 1440 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+
