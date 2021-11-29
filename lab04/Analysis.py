@@ -13,8 +13,8 @@ from astropy.constants import k_B
 # Reading in
 # ==============================================================================
 def read_in(target):
-    data = pd.read_csv("group02_data/processed_data/" + target)
-    # data = pd.read_csv("processed_data/" + target)
+    # data = pd.read_csv("group02_data/processed_data/" + target)
+    data = pd.read_csv("processed_data/" + target)
     data.rename(columns={'# x': 'x'}, inplace=True)
 
     data.loc[:, 'x'] = (np.array(data.loc[:, 'x']) * xpix).to(u.mm)
@@ -60,7 +60,7 @@ def plot_pos(data_init, data_sub, freq_init, freq_sub, dt, labels, img_path, col
 
     # Plot setup
     X = [(1, 3, (2, 3)), (1, 3, 1)]
-    plt.figure(figsize=(18, 4))
+    plt.figure(figsize=(18, 3))
     # plt.subplots_adjust(bottom=0, left=0, top=0.975, right=1)
 
     # Plotting Time Domain
@@ -97,7 +97,7 @@ def plot_vel(data, dt, labels, img_path, color=None):
 
     # Plot setup
     X = [(1, 3, (1, 2)), (1, 3, 3)]
-    plt.figure(figsize=(18, 4))
+    plt.figure(figsize=(18, 3))
     plt.subplots_adjust(bottom=0, left=0, top=0.975, right=1)
 
     # Calculating fit
@@ -117,7 +117,7 @@ def plot_vel(data, dt, labels, img_path, color=None):
     plt.ylabel(labels['ylabel_1'], fontsize=labels['label_fontsize'])
     plt.title(labels['title_1'], fontsize=labels['title_fontsize'])
     plt.yscale('log')
-    plt.text(np.max(data['bin_right_squr'])*0.85, np.max(data['count'])*0.75,
+    plt.text(np.max(data['bin_right_squr'])*0.85, np.max(data['count'])*0.55,
              rf"Line fit: ({fit[0]:.2f})$v^2$ + {fit[1]:.2f}" + "\n" + r"$\chi^2_{red} = $" + f"{chisq_red:.4f}",
              fontsize=labels['text_fontsize'], ha='center', va='center')
 
@@ -161,39 +161,39 @@ if __name__ == "__main__":
     ypix = u.def_unit('ypix', 1 * u.mm / yscale)
 
     pos_labels = {
-        'label_fontsize':   15,
-        'title_fontsize':   20,
-        'legend_fontsize':  10,
-        'text_fontsize':    10,
+        'label_fontsize':   20,
+        'title_fontsize':   25,
+        'legend_fontsize':  15,
+        'text_fontsize':    15,
 
 
         'data_label_1':     'Initial Data',
         'data_label_2':     r'Inverse FFT (50-80$\rightarrow$0)',
         'data_xlabel':      'Time (s)',
         'data_ylabel':      'Position (mm)',
-        'data_title':       'X Position in Time Domain - 60 Hz (transient)',
+        'data_title':       'Y Position in Time Domain - 200 Hz',
         'freq_label_1':     'FFT',
         'freq_label_2':     r'FFT (50-80$\rightarrow$0)',
         'freq_xlabel':      'Freq (Hz)',
         'freq_ylabel':      'Amplitude',
-        'freq_title':       'Freq Domain - 60 Hz',
-        'save_name':        'data_02_x_pos.pdf',
+        'freq_title':       'Freq Domain - 200 Hz',
+        'save_name':        'data_36_y_pos.pdf',
     }
     vel_labels = {
-        'label_fontsize':   15,
-        'title_fontsize':   20,
-        'legend_fontsize':  10,
-        'text_fontsize':    10,
+        'label_fontsize':   20,
+        'title_fontsize':   25,
+        'legend_fontsize':  15,
+        'text_fontsize':    15,
 
         'label_1':          '',
         'xlabel_1':         r'Velocity$^2$ (mm/s)$^2$',
         'ylabel_1':         'Counts',
-        'title_1':          'Velocity (X) Squared - 60 Hz (transient)',
+        'title_1':          'Velocity (Y) Squared - 200 Hz',
         'label_2':          '',
         'xlabel_2':         r'Residuals of Velocity$^2$ (mm/s)$^2$',
         'ylabel_2':         'Counts-Fit',
         'title_2':          'Residuals',
-        'save_name':        'data_02_x_vel.pdf',
+        'save_name':        'data_36_y_vel.pdf',
     }
 
     settings = {
@@ -202,10 +202,10 @@ if __name__ == "__main__":
         'vel_labels': vel_labels,
         'colors': color0,
 
-        'target': 'data_02.csv',
-        'time_step': 1 / 60,
-        'target_variable': 'x',
+        'target': 'data_36.csv',
+        'time_step': 1 / 200,
+        'target_variable': 'y',
         'region': (50, 80),
-        'bins': 200,
+        'bins': 1000,
     }
     main(settings)
