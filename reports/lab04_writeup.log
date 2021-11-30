@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  28 NOV 2021 22:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  30 NOV 2021 00:04
 entering extended mode
 **./lab04_writeup.tex
 (lab04_writeup.tex
@@ -314,61 +314,116 @@ File: ../lab04/images/paul_trap.jpg Graphic file (type jpg)
 <use ../lab04/images/paul_trap.jpg>
 Package pdftex.def Info: ../lab04/images/paul_trap.jpg  used on input line 68.
 (pdftex.def)             Requested size: 234.8775pt x 234.868pt.
- [2 <../lab04/images/paul_trap_diagram.pdf> <../lab04/images/paul_trap.jpg>]
 
-LaTeX Warning: Reference `fig:calibration' on page 3 undefined on input line 82
-.
 
-[3]
-<../lab04/images/data_33_x_pos.pdf, id=37, 1300.86pt x 216.81pt>
+LaTeX Warning: Citation `pauly' on page 2 undefined on input line 69.
+
+
+LaTeX Warning: Citation `pauly' on page 2 undefined on input line 69.
+
+[2 <../lab04/images/paul_trap_diagram.pdf> <../lab04/images/paul_trap.jpg>]
+<../lab04/images/hori_cali.pdf, id=34, 1300.86pt x 289.08pt>
+File: ../lab04/images/hori_cali.pdf Graphic file (type pdf)
+<use ../lab04/images/hori_cali.pdf>
+Package pdftex.def Info: ../lab04/images/hori_cali.pdf  used on input line 84.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+<../lab04/images/vert_cali.pdf, id=35, 1300.86pt x 289.08pt>
+File: ../lab04/images/vert_cali.pdf Graphic file (type pdf)
+<use ../lab04/images/vert_cali.pdf>
+Package pdftex.def Info: ../lab04/images/vert_cali.pdf  used on input line 85.
+(pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
+
+[3 <../lab04/images/hori_cali.pdf> <../lab04/images/vert_cali.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/vert_cali.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>]
+<../lab04/images/data_33_x_pos.pdf, id=144, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_33_x_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_33_x_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_33_x_pos.pdf  used on input line 
-101.
+109.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_33_y_pos.pdf, id=38, 1300.86pt x 216.81pt>
+<../lab04/images/data_33_y_pos.pdf, id=145, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_33_y_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_33_y_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_33_y_pos.pdf  used on input line 
-102.
+110.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_36_x_pos.pdf, id=39, 1300.86pt x 216.81pt>
+<../lab04/images/data_36_x_pos.pdf, id=146, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_36_x_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_36_x_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_36_x_pos.pdf  used on input line 
-103.
+111.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_36_y_pos.pdf, id=40, 1300.86pt x 216.81pt>
+<../lab04/images/data_36_y_pos.pdf, id=147, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_36_y_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_36_y_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_36_y_pos.pdf  used on input line 
-104.
+112.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_33_x_vel.pdf, id=41, 1300.86pt x 216.81pt>
+<../lab04/images/data_33_x_vel.pdf, id=148, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_33_x_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_33_x_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_33_x_vel.pdf  used on input line 
-112.
+119.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_33_y_vel.pdf, id=42, 1300.86pt x 216.81pt>
+<../lab04/images/data_33_y_vel.pdf, id=149, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_33_y_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_33_y_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_33_y_vel.pdf  used on input line 
-113.
+120.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_36_x_vel.pdf, id=43, 1300.86pt x 216.81pt>
+<../lab04/images/data_36_x_vel.pdf, id=150, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_36_x_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_36_x_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_36_x_vel.pdf  used on input line 
-114.
+121.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_36_y_vel.pdf, id=44, 1300.86pt x 216.81pt>
+<../lab04/images/data_36_y_vel.pdf, id=151, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_36_y_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_36_y_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_36_y_vel.pdf  used on input line 
-115.
+122.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
- [4 <../lab04/images/data_33_x_pos.pdf> <../lab04/images/data_33_y_pos.pdf
+ [4]
+<../lab04/images/data_01_x_pos.pdf, id=155, 1300.86pt x 216.81pt>
+File: ../lab04/images/data_01_x_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_01_x_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_01_x_pos.pdf  used on input line 
+135.
+(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
+<../lab04/images/data_01_y_pos.pdf, id=156, 1300.86pt x 216.81pt>
+File: ../lab04/images/data_01_y_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_01_y_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_01_y_pos.pdf  used on input line 
+136.
+(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
+<../lab04/images/data_03_x_pos.pdf, id=157, 1300.86pt x 216.81pt>
+File: ../lab04/images/data_03_x_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_03_x_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_03_x_pos.pdf  used on input line 
+143.
+(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
+<../lab04/images/data_03_y_pos.pdf, id=158, 1300.86pt x 216.81pt>
+File: ../lab04/images/data_03_y_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_03_y_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_03_y_pos.pdf  used on input line 
+144.
+(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
+<../lab04/images/data_04_x_pos.pdf, id=159, 1300.86pt x 216.81pt>
+File: ../lab04/images/data_04_x_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_04_x_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_04_x_pos.pdf  used on input line 
+151.
+(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
+<../lab04/images/data_04_y_pos.pdf, id=160, 1300.86pt x 216.81pt>
+File: ../lab04/images/data_04_y_pos.pdf Graphic file (type pdf)
+<use ../lab04/images/data_04_y_pos.pdf>
+Package pdftex.def Info: ../lab04/images/data_04_y_pos.pdf  used on input line 
+152.
+(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
+ [5 <../lab04/images/data_33_x_pos.pdf> <../lab04/images/data_33_y_pos.pdf
 
 pdfTeX warning: pdflatex (file ../lab04/images/data_33_y_pos.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -380,44 +435,7 @@ n: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ../lab04/images/data_36_y_pos.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
->]
-<../lab04/images/data_01_x_pos.pdf, id=221, 1300.86pt x 216.81pt>
-File: ../lab04/images/data_01_x_pos.pdf Graphic file (type pdf)
-<use ../lab04/images/data_01_x_pos.pdf>
-Package pdftex.def Info: ../lab04/images/data_01_x_pos.pdf  used on input line 
-129.
-(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_01_y_pos.pdf, id=222, 1300.86pt x 216.81pt>
-File: ../lab04/images/data_01_y_pos.pdf Graphic file (type pdf)
-<use ../lab04/images/data_01_y_pos.pdf>
-Package pdftex.def Info: ../lab04/images/data_01_y_pos.pdf  used on input line 
-130.
-(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_03_x_pos.pdf, id=223, 1300.86pt x 216.81pt>
-File: ../lab04/images/data_03_x_pos.pdf Graphic file (type pdf)
-<use ../lab04/images/data_03_x_pos.pdf>
-Package pdftex.def Info: ../lab04/images/data_03_x_pos.pdf  used on input line 
-137.
-(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_03_y_pos.pdf, id=224, 1300.86pt x 216.81pt>
-File: ../lab04/images/data_03_y_pos.pdf Graphic file (type pdf)
-<use ../lab04/images/data_03_y_pos.pdf>
-Package pdftex.def Info: ../lab04/images/data_03_y_pos.pdf  used on input line 
-138.
-(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_04_x_pos.pdf, id=225, 1300.86pt x 216.81pt>
-File: ../lab04/images/data_04_x_pos.pdf Graphic file (type pdf)
-<use ../lab04/images/data_04_x_pos.pdf>
-Package pdftex.def Info: ../lab04/images/data_04_x_pos.pdf  used on input line 
-145.
-(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_04_y_pos.pdf, id=226, 1300.86pt x 216.81pt>
-File: ../lab04/images/data_04_y_pos.pdf Graphic file (type pdf)
-<use ../lab04/images/data_04_y_pos.pdf>
-Package pdftex.def Info: ../lab04/images/data_04_y_pos.pdf  used on input line 
-146.
-(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
- [5 <../lab04/images/data_33_x_vel.pdf> <../lab04/images/data_33_y_vel.pdf
+>] [6 <../lab04/images/data_33_x_vel.pdf> <../lab04/images/data_33_y_vel.pdf
 
 pdfTeX warning: pdflatex (file ../lab04/images/data_33_y_vel.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -429,15 +447,40 @@ n: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ../lab04/images/data_36_y_vel.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
->] [6 <../lab04/images/data_01_x_pos.pdf> <../lab04/images/data_01_y_pos.pdf
+> <../lab04/images/data_01_x_pos.pdf
+
+pdfTeX warning: pdflatex (file ../lab04/images/data_01_x_pos.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <../lab04/images/data_01_y_pos.pdf
 
 pdfTeX warning: pdflatex (file ../lab04/images/data_01_y_pos.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
-> <../lab04/images/data_03_x_pos.pdf
-
-pdfTeX warning: pdflatex (file ../lab04/images/data_03_x_pos.pdf): PDF inclusio
-n: multiple pdfs with page group included in a single page
-> <../lab04/images/data_03_y_pos.pdf
+>]
+<../lab04/images/data_01_x_vel.pdf, id=657, 1300.86pt x 216.81pt>
+File: ../lab04/images/data_01_x_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_01_x_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_01_x_vel.pdf  used on input line 
+165.
+(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
+<../lab04/images/data_01_y_vel.pdf, id=658, 1300.86pt x 216.81pt>
+File: ../lab04/images/data_01_y_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_01_y_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_01_y_vel.pdf  used on input line 
+166.
+(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
+<../lab04/images/data_03_x_vel.pdf, id=659, 1300.86pt x 216.81pt>
+File: ../lab04/images/data_03_x_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_03_x_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_03_x_vel.pdf  used on input line 
+167.
+(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
+<../lab04/images/data_03_y_vel.pdf, id=660, 1300.86pt x 216.81pt>
+File: ../lab04/images/data_03_y_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_03_y_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_03_y_vel.pdf  used on input line 
+168.
+(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
+ [7 <../lab04/images/data_03_x_pos.pdf> <../lab04/images/data_03_y_pos.pdf
 
 pdfTeX warning: pdflatex (file ../lab04/images/data_03_y_pos.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -450,43 +493,19 @@ n: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ../lab04/images/data_04_y_pos.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
 >]
-<../lab04/images/data_01_x_vel.pdf, id=731, 1300.86pt x 216.81pt>
-File: ../lab04/images/data_01_x_vel.pdf Graphic file (type pdf)
-<use ../lab04/images/data_01_x_vel.pdf>
-Package pdftex.def Info: ../lab04/images/data_01_x_vel.pdf  used on input line 
-159.
-(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_01_y_vel.pdf, id=732, 1300.86pt x 216.81pt>
-File: ../lab04/images/data_01_y_vel.pdf Graphic file (type pdf)
-<use ../lab04/images/data_01_y_vel.pdf>
-Package pdftex.def Info: ../lab04/images/data_01_y_vel.pdf  used on input line 
-160.
-(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_03_x_vel.pdf, id=733, 1300.86pt x 216.81pt>
-File: ../lab04/images/data_03_x_vel.pdf Graphic file (type pdf)
-<use ../lab04/images/data_03_x_vel.pdf>
-Package pdftex.def Info: ../lab04/images/data_03_x_vel.pdf  used on input line 
-161.
-(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_03_y_vel.pdf, id=734, 1300.86pt x 216.81pt>
-File: ../lab04/images/data_03_y_vel.pdf Graphic file (type pdf)
-<use ../lab04/images/data_03_y_vel.pdf>
-Package pdftex.def Info: ../lab04/images/data_03_y_vel.pdf  used on input line 
-162.
-(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_04_x_vel.pdf, id=735, 1300.86pt x 216.81pt>
+<../lab04/images/data_04_x_vel.pdf, id=846, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_04_x_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_04_x_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_04_x_vel.pdf  used on input line 
-169.
+175.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_04_y_vel.pdf, id=736, 1300.86pt x 216.81pt>
+<../lab04/images/data_04_y_vel.pdf, id=847, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_04_y_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_04_y_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_04_y_vel.pdf  used on input line 
-170.
+176.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
- [7] [8 <../lab04/images/data_01_x_vel.pdf> <../lab04/images/data_01_y_vel.pdf
+ [8 <../lab04/images/data_01_x_vel.pdf> <../lab04/images/data_01_y_vel.pdf
 
 pdfTeX warning: pdflatex (file ../lab04/images/data_01_y_vel.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -507,68 +526,69 @@ n: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ../lab04/images/data_04_y_vel.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
 >]
-<../lab04/images/data_02_x_pos.pdf, id=1095, 1300.86pt x 216.81pt>
+<../lab04/images/data_02_x_pos.pdf, id=1201, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_02_x_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_02_x_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_02_x_pos.pdf  used on input line 
-214.
+220.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_02_y_pos.pdf, id=1096, 1300.86pt x 216.81pt>
+<../lab04/images/data_02_y_pos.pdf, id=1202, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_02_y_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_02_y_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_02_y_pos.pdf  used on input line 
-215.
+221.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_05_x_pos.pdf, id=1097, 1300.86pt x 216.81pt>
+<../lab04/images/data_05_x_pos.pdf, id=1203, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_05_x_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_05_x_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_05_x_pos.pdf  used on input line 
-216.
+222.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_05_y_pos.pdf, id=1098, 1300.86pt x 216.81pt>
+<../lab04/images/data_05_y_pos.pdf, id=1204, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_05_y_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_05_y_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_05_y_pos.pdf  used on input line 
-217.
+223.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_02_x_vel.pdf, id=1099, 1300.86pt x 216.81pt>
+ [9]
+<../lab04/images/data_02_x_vel.pdf, id=1212, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_02_x_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_02_x_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_02_x_vel.pdf  used on input line 
-224.
+230.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_02_y_vel.pdf, id=1100, 1300.86pt x 216.81pt>
+<../lab04/images/data_02_y_vel.pdf, id=1213, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_02_y_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_02_y_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_02_y_vel.pdf  used on input line 
-225.
+231.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_05_x_vel.pdf, id=1101, 1300.86pt x 216.81pt>
+<../lab04/images/data_05_x_vel.pdf, id=1214, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_05_x_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_05_x_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_05_x_vel.pdf  used on input line 
-226.
+232.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_05_y_vel.pdf, id=1102, 1300.86pt x 216.81pt>
+<../lab04/images/data_05_y_vel.pdf, id=1215, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_05_y_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_05_y_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_05_y_vel.pdf  used on input line 
-227.
+233.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
- [9]
-<../lab04/images/crystal_1.PNG, id=1109, 602.25pt x 602.25pt>
+<../lab04/images/crystal_1.PNG, id=1216, 602.25pt x 602.25pt>
 File: ../lab04/images/crystal_1.PNG Graphic file (type png)
 <use ../lab04/images/crystal_1.PNG>
-Package pdftex.def Info: ../lab04/images/crystal_1.PNG  used on input line 253.
+Package pdftex.def Info: ../lab04/images/crystal_1.PNG  used on input line 259.
 
 (pdftex.def)             Requested size: 211.38832pt x 211.38797pt.
-<../lab04/images/crystal_2.PNG, id=1110, 602.25pt x 602.25pt>
+<../lab04/images/crystal_2.PNG, id=1217, 602.25pt x 602.25pt>
 File: ../lab04/images/crystal_2.PNG Graphic file (type png)
 <use ../lab04/images/crystal_2.PNG>
-Package pdftex.def Info: ../lab04/images/crystal_2.PNG  used on input line 254.
+Package pdftex.def Info: ../lab04/images/crystal_2.PNG  used on input line 260.
 
 (pdftex.def)             Requested size: 211.38832pt x 211.38797pt.
- [10 <../lab04/images/data_02_x_pos.pdf> <../lab04/images/data_02_y_pos.pdf
+ [10] [11 <../lab04/images/data_02_x_pos.pdf> <../lab04/images/data_02_y_pos.pd
+f
 
 pdfTeX warning: pdflatex (file ../lab04/images/data_02_y_pos.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -580,7 +600,11 @@ n: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ../lab04/images/data_05_y_pos.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
->] [11 <../lab04/images/data_02_x_vel.pdf> <../lab04/images/data_02_y_vel.pdf
+>]
+
+LaTeX Warning: Text page 12 contains only floats.
+
+[12 <../lab04/images/data_02_x_vel.pdf> <../lab04/images/data_02_y_vel.pdf
 
 pdfTeX warning: pdflatex (file ../lab04/images/data_02_y_vel.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -593,40 +617,39 @@ n: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ../lab04/images/data_05_y_vel.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
 > <../lab04/images/crystal_1.PNG (PNG copy)> <../lab04/images/crystal_2.PNG (PN
-G copy)>] [12] [13
+G copy)>] [13] [14
 
-] (lab04_writeup.bbl) [14] (lab04_writeup.aux)
+] (lab04_writeup.bbl) [15] (lab04_writeup.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5306 strings out of 478927
- 84566 string characters out of 2852534
- 396391 words of memory out of 3000000
- 23083 multiletter control sequences out of 15000+600000
- 414210 words of font info for 69 fonts, out of 8000000 for 9000
+ 5319 strings out of 478927
+ 85064 string characters out of 2852534
+ 396401 words of memory out of 3000000
+ 23095 multiletter control sequences out of 15000+600000
+ 413873 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,12n,81p,1673b,392s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\jarde\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1200.pk><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jarde/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jarde/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jarde/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/j
-arde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17
-.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr7.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr8.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on lab04_writeup.pdf (14 pages, 2949110 bytes).
+ 70i,12n,81p,1673b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmex10.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jarde/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jarde/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jarde/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jarde/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users
+/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
+7.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr8.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb>
+Output written on lab04_writeup.pdf (15 pages, 3063784 bytes).
 PDF statistics:
- 1596 PDF objects out of 1728 (max. 8388607)
+ 1701 PDF objects out of 1728 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 
