@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  30 NOV 2021 00:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.25)  30 NOV 2021 15:31
 entering extended mode
 **./lab04_writeup.tex
 (lab04_writeup.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27>
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count182
@@ -21,10 +21,10 @@ File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks16
 \symAMSa=\mathgroup4
@@ -32,24 +32,25 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+))
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen139
 ))
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen140
 )
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count190
@@ -90,17 +91,16 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count268
@@ -116,30 +116,33 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen155
 \Gm@dimlist=\toks23
 
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg
+))
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
+.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.d
+ef
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen156
 \Gin@req@width=\dimen157
-) (C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+)
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \captionmargin=\dimen158
 \captionmargin@=\dimen159
@@ -152,24 +155,23 @@ Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count271
 \c@continuedfloat=\count272
-)
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.sty
+) (C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/physics\physics.sty
 Package: physics 
 
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
-e.sty
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpa
+rse.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2021-08-27 L3 programming layer (loader) 
 
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
+dftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count273
 \l__pdf_internal_box=\box52
 ))
 Package: xparse 2021-08-27 L3 Experimental document command parser
 ))
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
 \UL@box=\box53
 \UL@hyphenbox=\box54
 \UL@skip=\skip52
@@ -181,7 +183,7 @@ Package: xparse 2021-08-27 L3 Experimental document command parser
 Package: ulem 2019/11/18
 \ULdepth=\dimen167
 )
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
 \LTleft=\skip53
 \LTright=\skip54
@@ -253,8 +255,8 @@ LaTeX Font Info:    ... okay on input line 19.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
+mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count280
 \scratchdimen=\dimen169
@@ -268,33 +270,32 @@ ii
 \makeMPintoPDFobject=\count285
 \everyMPtoPDFconversion=\toks27
 )
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
+-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys
+.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
 
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
 
-
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 
 
-(C:\Users\jarde\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Users\WillsPc\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
@@ -308,20 +309,13 @@ ine 40.
 (pdftex.def)             Requested size: 469.75502pt x 142.2386pt.
 [1
 
-{C:/Users/jarde/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+{C:/Users/WillsPc/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 <../lab04/images/paul_trap.jpg, id=15, 1441.63594pt x 1441.63594pt>
 File: ../lab04/images/paul_trap.jpg Graphic file (type jpg)
 <use ../lab04/images/paul_trap.jpg>
 Package pdftex.def Info: ../lab04/images/paul_trap.jpg  used on input line 68.
 (pdftex.def)             Requested size: 234.8775pt x 234.868pt.
-
-
-LaTeX Warning: Citation `pauly' on page 2 undefined on input line 69.
-
-
-LaTeX Warning: Citation `pauly' on page 2 undefined on input line 69.
-
-[2 <../lab04/images/paul_trap_diagram.pdf> <../lab04/images/paul_trap.jpg>]
+ [2 <../lab04/images/paul_trap_diagram.pdf> <../lab04/images/paul_trap.jpg>]
 <../lab04/images/hori_cali.pdf, id=34, 1300.86pt x 289.08pt>
 File: ../lab04/images/hori_cali.pdf Graphic file (type pdf)
 <use ../lab04/images/hori_cali.pdf>
@@ -332,8 +326,7 @@ File: ../lab04/images/vert_cali.pdf Graphic file (type pdf)
 <use ../lab04/images/vert_cali.pdf>
 Package pdftex.def Info: ../lab04/images/vert_cali.pdf  used on input line 85.
 (pdftex.def)             Requested size: 469.75502pt x 104.39072pt.
-
-[3 <../lab04/images/hori_cali.pdf> <../lab04/images/vert_cali.pdf
+ [3 <../lab04/images/hori_cali.pdf> <../lab04/images/vert_cali.pdf
 
 pdfTeX warning: pdflatex (file ../lab04/images/vert_cali.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
@@ -342,86 +335,86 @@ ultiple pdfs with page group included in a single page
 File: ../lab04/images/data_33_x_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_33_x_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_33_x_pos.pdf  used on input line 
-109.
+108.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_33_y_pos.pdf, id=145, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_33_y_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_33_y_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_33_y_pos.pdf  used on input line 
-110.
+109.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_36_x_pos.pdf, id=146, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_36_x_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_36_x_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_36_x_pos.pdf  used on input line 
-111.
+110.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_36_y_pos.pdf, id=147, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_36_y_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_36_y_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_36_y_pos.pdf  used on input line 
-112.
+111.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_33_x_vel.pdf, id=148, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_33_x_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_33_x_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_33_x_vel.pdf  used on input line 
-119.
+118.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_33_y_vel.pdf, id=149, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_33_y_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_33_y_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_33_y_vel.pdf  used on input line 
-120.
+119.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_36_x_vel.pdf, id=150, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_36_x_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_36_x_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_36_x_vel.pdf  used on input line 
-121.
+120.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_36_y_vel.pdf, id=151, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_36_y_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_36_y_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_36_y_vel.pdf  used on input line 
-122.
+121.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
  [4]
 <../lab04/images/data_01_x_pos.pdf, id=155, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_01_x_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_01_x_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_01_x_pos.pdf  used on input line 
-135.
+134.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_01_y_pos.pdf, id=156, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_01_y_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_01_y_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_01_y_pos.pdf  used on input line 
-136.
+135.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_03_x_pos.pdf, id=157, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_03_x_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_03_x_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_03_x_pos.pdf  used on input line 
-143.
+142.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_03_y_pos.pdf, id=158, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_03_y_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_03_y_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_03_y_pos.pdf  used on input line 
-144.
+143.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_04_x_pos.pdf, id=159, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_04_x_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_04_x_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_04_x_pos.pdf  used on input line 
-151.
+150.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_04_y_pos.pdf, id=160, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_04_y_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_04_y_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_04_y_pos.pdf  used on input line 
-152.
+151.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
  [5 <../lab04/images/data_33_x_pos.pdf> <../lab04/images/data_33_y_pos.pdf
 
@@ -460,25 +453,37 @@ n: multiple pdfs with page group included in a single page
 File: ../lab04/images/data_01_x_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_01_x_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_01_x_vel.pdf  used on input line 
-165.
+164.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_01_y_vel.pdf, id=658, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_01_y_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_01_y_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_01_y_vel.pdf  used on input line 
-166.
+165.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_03_x_vel.pdf, id=659, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_03_x_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_03_x_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_03_x_vel.pdf  used on input line 
-167.
+166.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_03_y_vel.pdf, id=660, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_03_y_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_03_y_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_03_y_vel.pdf  used on input line 
-168.
+167.
+(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
+<../lab04/images/data_04_x_vel.pdf, id=661, 1300.86pt x 216.81pt>
+File: ../lab04/images/data_04_x_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_04_x_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_04_x_vel.pdf  used on input line 
+174.
+(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
+<../lab04/images/data_04_y_vel.pdf, id=662, 1300.86pt x 216.81pt>
+File: ../lab04/images/data_04_y_vel.pdf Graphic file (type pdf)
+<use ../lab04/images/data_04_y_vel.pdf>
+Package pdftex.def Info: ../lab04/images/data_04_y_vel.pdf  used on input line 
+175.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
  [7 <../lab04/images/data_03_x_pos.pdf> <../lab04/images/data_03_y_pos.pdf
 
@@ -492,20 +497,7 @@ n: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ../lab04/images/data_04_y_pos.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
->]
-<../lab04/images/data_04_x_vel.pdf, id=846, 1300.86pt x 216.81pt>
-File: ../lab04/images/data_04_x_vel.pdf Graphic file (type pdf)
-<use ../lab04/images/data_04_x_vel.pdf>
-Package pdftex.def Info: ../lab04/images/data_04_x_vel.pdf  used on input line 
-175.
-(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_04_y_vel.pdf, id=847, 1300.86pt x 216.81pt>
-File: ../lab04/images/data_04_y_vel.pdf Graphic file (type pdf)
-<use ../lab04/images/data_04_y_vel.pdf>
-Package pdftex.def Info: ../lab04/images/data_04_y_vel.pdf  used on input line 
-176.
-(pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
- [8 <../lab04/images/data_01_x_vel.pdf> <../lab04/images/data_01_y_vel.pdf
+>] [8 <../lab04/images/data_01_x_vel.pdf> <../lab04/images/data_01_y_vel.pdf
 
 pdfTeX warning: pdflatex (file ../lab04/images/data_01_y_vel.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -530,65 +522,55 @@ n: multiple pdfs with page group included in a single page
 File: ../lab04/images/data_02_x_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_02_x_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_02_x_pos.pdf  used on input line 
-220.
+219.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_02_y_pos.pdf, id=1202, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_02_y_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_02_y_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_02_y_pos.pdf  used on input line 
-221.
+220.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_05_x_pos.pdf, id=1203, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_05_x_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_05_x_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_05_x_pos.pdf  used on input line 
-222.
+221.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
 <../lab04/images/data_05_y_pos.pdf, id=1204, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_05_y_pos.pdf Graphic file (type pdf)
 <use ../lab04/images/data_05_y_pos.pdf>
 Package pdftex.def Info: ../lab04/images/data_05_y_pos.pdf  used on input line 
-223.
+222.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
- [9]
-<../lab04/images/data_02_x_vel.pdf, id=1212, 1300.86pt x 216.81pt>
+<../lab04/images/data_02_x_vel.pdf, id=1205, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_02_x_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_02_x_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_02_x_vel.pdf  used on input line 
-230.
+229.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_02_y_vel.pdf, id=1213, 1300.86pt x 216.81pt>
+<../lab04/images/data_02_y_vel.pdf, id=1206, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_02_y_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_02_y_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_02_y_vel.pdf  used on input line 
-231.
+230.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_05_x_vel.pdf, id=1214, 1300.86pt x 216.81pt>
+<../lab04/images/data_05_x_vel.pdf, id=1207, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_05_x_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_05_x_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_05_x_vel.pdf  used on input line 
-232.
+231.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/data_05_y_vel.pdf, id=1215, 1300.86pt x 216.81pt>
+<../lab04/images/data_05_y_vel.pdf, id=1208, 1300.86pt x 216.81pt>
 File: ../lab04/images/data_05_y_vel.pdf Graphic file (type pdf)
 <use ../lab04/images/data_05_y_vel.pdf>
 Package pdftex.def Info: ../lab04/images/data_05_y_vel.pdf  used on input line 
-233.
+232.
 (pdftex.def)             Requested size: 469.75502pt x 78.29303pt.
-<../lab04/images/crystal_1.PNG, id=1216, 602.25pt x 602.25pt>
-File: ../lab04/images/crystal_1.PNG Graphic file (type png)
-<use ../lab04/images/crystal_1.PNG>
-Package pdftex.def Info: ../lab04/images/crystal_1.PNG  used on input line 259.
+ [9]
 
-(pdftex.def)             Requested size: 211.38832pt x 211.38797pt.
-<../lab04/images/crystal_2.PNG, id=1217, 602.25pt x 602.25pt>
-File: ../lab04/images/crystal_2.PNG Graphic file (type png)
-<use ../lab04/images/crystal_2.PNG>
-Package pdftex.def Info: ../lab04/images/crystal_2.PNG  used on input line 260.
+LaTeX Warning: Text page 10 contains only floats.
 
-(pdftex.def)             Requested size: 211.38832pt x 211.38797pt.
- [10] [11 <../lab04/images/data_02_x_pos.pdf> <../lab04/images/data_02_y_pos.pd
-f
+[10 <../lab04/images/data_02_x_pos.pdf> <../lab04/images/data_02_y_pos.pdf
 
 pdfTeX warning: pdflatex (file ../lab04/images/data_02_y_pos.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -600,11 +582,7 @@ n: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ../lab04/images/data_05_y_pos.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
->]
-
-LaTeX Warning: Text page 12 contains only floats.
-
-[12 <../lab04/images/data_02_x_vel.pdf> <../lab04/images/data_02_y_vel.pdf
+>] [11 <../lab04/images/data_02_x_vel.pdf> <../lab04/images/data_02_y_vel.pdf
 
 pdfTeX warning: pdflatex (file ../lab04/images/data_02_y_vel.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -616,40 +594,51 @@ n: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ../lab04/images/data_05_y_vel.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
-> <../lab04/images/crystal_1.PNG (PNG copy)> <../lab04/images/crystal_2.PNG (PN
-G copy)>] [13] [14
+>]
+<../lab04/images/crystal_1.PNG, id=1632, 602.25pt x 602.25pt>
+File: ../lab04/images/crystal_1.PNG Graphic file (type png)
+<use ../lab04/images/crystal_1.PNG>
+Package pdftex.def Info: ../lab04/images/crystal_1.PNG  used on input line 258.
 
-] (lab04_writeup.bbl) [15] (lab04_writeup.aux)
+(pdftex.def)             Requested size: 211.38832pt x 211.38797pt.
+<../lab04/images/crystal_2.PNG, id=1633, 602.25pt x 602.25pt>
+File: ../lab04/images/crystal_2.PNG Graphic file (type png)
+<use ../lab04/images/crystal_2.PNG>
+Package pdftex.def Info: ../lab04/images/crystal_2.PNG  used on input line 259.
 
-LaTeX Warning: There were undefined references.
+(pdftex.def)             Requested size: 211.38832pt x 211.38797pt.
+ [12 <../lab04/images/crystal_1.PNG (PNG copy)> <../lab04/images/crystal_2.PNG 
+(PNG copy)>] (lab04_writeup.bbl) [13] [14
 
- ) 
+] [15] (lab04_writeup.aux) ) 
 Here is how much of TeX's memory you used:
- 5319 strings out of 478927
- 85064 string characters out of 2852534
- 396401 words of memory out of 3000000
- 23095 multiletter control sequences out of 15000+600000
- 413873 words of font info for 68 fonts, out of 8000000 for 9000
+ 5322 strings out of 478927
+ 85231 string characters out of 2851586
+ 396404 words of memory out of 3000000
+ 23097 multiletter control sequences out of 15000+600000
+ 414220 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,12n,81p,1673b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmbx10.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmbx12.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmex10.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jarde/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/jarde/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/jarde/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jarde/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users
-/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><
-C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-7.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr8.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Users/jarde/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb>
-Output written on lab04_writeup.pdf (15 pages, 3063784 bytes).
+ 70i,12n,81p,1637b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/WillsPc/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/WillsPc/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/WillsPc/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/WillsPc/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Use
+rs/WillsPc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.p
+fb><C:/Users/WillsPc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmmi8.pfb><C:/Users/WillsPc/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Users/WillsPc/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/Users/WillsPc/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/WillsPc/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/WillsPc/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/WillsPc/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
+rs/WillsPc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb><C:/Users/WillsPc/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmti12.pfb>
+Output written on lab04_writeup.pdf (15 pages, 3075956 bytes).
 PDF statistics:
- 1701 PDF objects out of 1728 (max. 8388607)
+ 1706 PDF objects out of 1728 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -26,25 +26,25 @@
 \section{Introduction}
 %% Introduction section. Here I introduce the physics of the experiment and give some slight motivation for the experiment. I personally think that putting the physics of the apparatus here is better. 
 
-Particle traps are a fundamental cornerstone to many lab settings, from precise measurements to measure specific characteristics such as excitation levels. While many use fancy setups that rely on advanced procedures and exact execution, there are some pit-stops along the way that students can use to get a hands on understanding of the physics of particle traps, without as much difficulty. One of these ``pitstops" is the Paul Trap. The Paul Trap is a type of electrodynamics ion trap (EIT). By using an oscillating electric field, such as from an AC current, the position of a charged particle will find an equilibrium point in the center of the trap. Figure \ref{fig:paul_trap_diagram} shows the general setup, however this is a very unstable design. The edges of the bars that make the top of the trap can be curved to create a concave basis that holds the particle in with gravity. A stable region can also be accomplished with a quadruple setup. The one that will be implemented here will instead be a circular structure, where the two plates in Figure \ref{fig:paul_trap_diagram} can be though of as a toroid coming in and out of the paper. This toroid will create a pulsing field in and out of the center or the shape. Some fun calculations give the expected force on the particle:
+Particle traps are a fundamental cornerstone to many lab settings, from precise measurements to measuring specific characteristics, such as excitation levels. While many use fancy setups that rely on advanced procedures and exact execution, there are some ``pit-stops" along the way that students can use to get a hands on understanding of the physics of particle traps. One of these ``pit-stops" is the Paul Trap. The Paul Trap is a type of electrodynamics ion trap (EIT). By using an oscillating electric field, such as from an AC current, the position of a charged particle will find an equilibrium point in the center of the trap. Figure \ref{fig:paul_trap_diagram} shows the general setup; however, this is a very unstable design. The edges of the plats that make the top and bottom of the trap can be curved to create a concave basis that holds the particle in with gravity. A stable region can also be accomplished with a quadruple setup. The one that will be implemented in this lab will be a circular structure, where the two plates in Figure \ref{fig:paul_trap_diagram} can be though of as a toroid coming in and out of the paper. This toroid will create a pulsing field in and out of the center or the shape. Some fun calculations give the expected force on the particle:
 \begin{equation*}
 z \approx -\frac{q E}{m \omega^2}\sin(\omega t)
 \end{equation*}
 \begin{equation*}
 \ev{F_z(z,t)} \approx -\frac{1}{2} \frac{qE_0 E^\prime}{m \omega^2}
 \end{equation*}
-and so on. However, those calculations won't be used here. Instead, the focus will instead be on the Boltzmann distribution of the thermal energy and how it relates to the mass. 
+and so on \cite{libbrecht_black_2018}. However, those calculations won't be critical to our understanding. 
 
 \begin{figure}[ht]
 \centering
     \includegraphics[width=\textwidth]{paul_trap_diagram.pdf}
-	\caption{}
+	\caption{A diagram of a simple Paul trap via \cite{libbrecht_black_2018}}
     \label{fig:paul_trap_diagram}
 \end{figure}
 
-For a general particle in a simple harmonic oscillator, the probability that a particle is found at a certain energy with $v_i$ and $x_i$ is:
+Instead, the focus will be on the Boltzmann distribution of the thermal energy and how it relates to the mass. For a general particle in a simple harmonic oscillator, the probability that a particle is found at a certain energy with $v_i$ and $x_i$ is:
 \begin{equation*}
-P(x_i, v_i) = \textbf{exp}\Big(-\frac{\frac{1}{2}mv_i^2 + \frac{1}{2}m\omega_i^2x_i^2}{k_B T}\Big)
+P(x_i, v_i) \propto \textbf{exp}\Big(-\frac{\frac{1}{2}mv_i^2 + \frac{1}{2}m\omega_i^2x_i^2}{k_B T}\Big)
 \label{eq:gen_prob}
 \end{equation*}
 Marginalizing out the positional argument by integrating over $x$ provides:
@@ -52,12 +52,12 @@ Marginalizing out the positional argument by integrating over $x$ provides:
 P(v_i) \propto \textbf{exp} \Big( -\frac{mv_i^2}{2 k_B T}\Big)
 \label{eq:marg_prob}
 \end{equation*}
-And taking the natural log of this, introducing a normalization constant $\ln(A) = A^\prime$:
+And taking the natural log and introducing a normalization constant $\ln(A) = A^\prime$:
 \begin{equation}
 \ln[P(v_i)] = -\Big(\frac{m}{2k_B T}\Big) v_i^2 + A^\prime
 \label{eq:marg_prob2}
 \end{equation}
-Where $m$ is the mass or the particle, $\omega$ is the oscillation frequency, $k_B$ is the Boltzmann constant, and $T$ is the temperature. 
+Where $m$ is the mass or the particle, $\omega$ is the oscillation frequency, $k_B$ is the Boltzmann constant, and $T$ is the temperature. Doing this analysis allows a relative probability of finding a particle at $v_i^2$ to the mass and ambient temperature. 
 
 %-----------------------------------------------------------------------
 
@@ -66,15 +66,15 @@ Where $m$ is the mass or the particle, $\omega$ is the oscillation frequency, $k
 \begin{figure}[ht]
 \centering
     \includegraphics[width=0.5\textwidth]{paul_trap.jpg}
-	\caption{A diagram of a simple paul trap via \cite{pauly}}
+	\caption{A picture of the Paul trap setup in lab.}
     \label{fig:paul_trap}
 \end{figure}
 
-The Paul Trap was constructed using a variable voltage regulator to provide an AC source at 60 Hz with a range of 0-135 V. This AC source was connected up to an I-ring screw. To protect the trap from external air currents, a high-tech cardboard box surrounded the trap, with two oval slits in the side, running parallel to the ground and covered with thick, clear plastic to create a sort of viewing window. (See figure \ref{fig:paul_trap}). To continue minimizing the impact of air currents, the door was closed and a drape was pulled closed behind the trap. Even with these procautions, it will seen that air currents seemed to contribute a large to the collected data, to the point of making an analysis impossible. 
+The Paul Trap was constructed using a variable voltage regulator to provide an AC source at 60 Hz with a range of 0-135 V. This AC source was connected up to an I-ring screw. To protect the trap from external air currents, a high-tech cardboard box surrounded the trap, with two oval slits in the side, running parallel to the ground and covered with thick, clear plastic to create a sort of viewing window. (See figure \ref{fig:paul_trap}). To continue minimizing the impact of air currents, the door was closed and a drape was pulled closed behind the trap. Even with these precautions, it will seen that air currents seemed to contribute a large to the collected data, to the point of making an analysis impossible. 
 
-The particles used in the trap were Lycopodium, commonly called Dragon's Breathe because of it's use by magic hobbyists. Using a plastic dowel that was rubbed on some foam to pick up a slight electric charge, lycompods were picked up, and simutaneously charged, and dropped into the apparatus from a small hole in the top of the box. This hole had a slide cover to allow the box to be resealed when the hole was not needed. As the particles floated through the trapping region, a collection of them would get trapped. For most of the analysis, only one particle was wanted, so a dust blower was used to introduce a puff of air that would knock unwanted particles away. This proved surprisingly effective. 
+The particles used in the trap were Lycopodium, commonly called Dragon's Breathe because of it's use by magic hobbyists. Using a plastic dowel that was rubbed on some foam to pick up a slight electric charge, lycompods were picked up, simultaneously charged, and were dropped into the apparatus from a small hole in the top of the box. This hole had a slide cover to allow the box to be resealed when the hole was not needed. As the particles floated through the trapping region, a collection of them would get trapped. For most of the analysis, only one particle was wanted, so a dust blower was used to introduce a puff of air that would knock unwanted particles away. This proved surprisingly effective. 
 
-The trap was observed using a camera fitted with a $0.3\times - 1\times$, $1:45$ zoom lens. Since the zoom changes the pixel scale, each time the focus was changed a new set of calibration pictures had to be taken. By using a monochromatic laser and taking a very small window of focus, the framerate of the camera was able to toggled, up towards the rate of 200 fps, for a $200 \times 200$ window. The rate was able to go up towards 300 fps, but that required the window size to be on an order that removed the particle from some of the frames. 
+The trap was observed using a camera fitted with a $0.3\times$ $\,-\,$ $ 1\times$, $1:45$ zoom lens. Since the zoom changes the pixel scale, each time the focus was changed a new set of calibration pictures had to be taken. By using a monochromatic laser and taking a very small window of focus, the frame-rate of the camera was able to toggled, up towards the rate of 200 fps, for a $200 \times 200$ window. The rate was able to go up towards 300 fps, but that required the window size to be on an order that removed the particle from some of the frames. 
 
 
 \subsection{Calibration}
@@ -89,18 +89,17 @@ The trap was observed using a camera fitted with a $0.3\times - 1\times$, $1:45$
 To calibrate the camera, two images were taken of a standard desktop ruler; one in the horizontal configuration and one in the vertical. These two images were then sliced along a line to get the magnitude count down the side of the ruler. This oscillatory behavior was then analyzed in the Fourier domain to get the primary width between peaks. This served to give the pixel to millimeter ratio. As can be seen in the Fourier images of Figure \ref{fig:calibration}, the resolution of the FFT was not overly impressive, but there is a clear primary peak around 66 (pixels per a mm) in the horizontal and 67 (pixels per a mm) in the vertical.
 
 
-
 \subsection{Data Collection Errors}
 %% The method that we used to collect data and the critical failures that meant that we could not use our data
-The setup show is obviously a thrown together system that has been proven to work in the ideal circumstances. The shield blocks a moderate amount of air currents, but currents that are able to enter from the bottom of the box tend to be a big issue. In the data collection, the data points to the fact that the bottom of the plastic sheet was not pulled tight against the box, and so the data was extremely messy (as can be see in Figure \ref{fig:flawed_pos}. It also would seem that what the software collected and what was told to be collected seemed to disagree. While screenshots of the capture software communicate that the frame rate of was 200 fps, the characteristics seemed very close to those of the 60 fps (Figure \ref{fig:flawed_pos}). This is both for the analyzed data and the raw footage. It needs to be investigated whether the frame rate taken corresponds to the capture software input or the settings imported from the another software.
+The setup shown is obviously a thrown together system that has been proven to work in the ideal circumstances. The shield blocks a moderate amount of air currents, but currents that are able to enter from the bottom of the box tend to be a big issue. In the data collection, the data points to the fact that the bottom of the plastic sheet was not pulled tight against the box, and so the data was extremely messy (as can be see in Figure \ref{fig:flawed_pos}. It also would seem that what the software collected and what was told to be collected seemed to disagree. While screen-shots of the capture software communicate that the frame rate was 200 fps, the characteristics seemed very close to those of the 60 fps (Figure \ref{fig:flawed_pos}). This is both for the analyzed data and the raw footage. It needs to be investigated whether the frame rate taken corresponds to the capture software input or the settings imported from the another software.
 
-So, all the data that was collected by our group was unusable. Reaching out to another group who had neither of these errors, supplementary data that held very good characteristics of both micro-motion and secular motion. The data gathered was collected at 60 Hz, 61 Hz, and 198 Hz. The 60 Hz and 198 Hz both had captures of a transient response from bumping the table with a fist. The collection time for the 60 Hz, 61 Hz and both transient data were 3000 frames. The 198 Hz had much more data, with 15000 frames. Nearly all the data that will be shown will be from these 5 data sets; with the exception of Figures \ref{fig:flawed_pos}, and \ref{fig:flawed_vel}, which are provided to show how unreliable that data is. 
+So, all the data that was collected by our group was unusable. Reaching out to another group who had neither of these errors, supplementary data that held very good characteristics of both micro-motion and secular motion was collected. The data gathered was collected at 60 Hz, 61 Hz, and 198 Hz. The 60 Hz and 198 Hz both had captures of a transient response from bumping the table with a fist. The collection time for the 60 Hz, 61 Hz and both transient data were 3000 frames. The 198 Hz had much more data, with 15000 frames. Nearly all the data that will be shown will be from these 5 data sets; with the exception of Figures \ref{fig:flawed_pos}, and \ref{fig:flawed_vel}, which are provided to show how unreliable that data is. 
 
 %-----------------------------------------------------------------------
 
 \section{Results and Analysis}
 %% Bring up the premise that only group 2 data will be provided in depth
-The data analysis proved to be a great learning experience. Communicating with out groups, it turned out that there were a couple crucial errors that were made. This was a great learning experience about analyzing data in between sessions so there would be time to fix any errors before the allotted time is over. 
+The data analysis proved to be a great learning experience. Communicating with other groups it turned out that there were a couple crucial errors that were made. The take away is to analyze data in between sessions so there is time to fix any errors before the allotted time for labs is over. 
 
 \subsection{Flawed Data Analysis}
 %% The full process will be given in the next subsection, just see that it don't work well
@@ -124,9 +123,9 @@ The data analysis proved to be a great learning experience. Communicating with o
     \label{fig:flawed_vel}
 \end{figure}
 
-The full analysis of the flawed data can be seen in Figures \ref{fig:flawed_pos} and \ref{fig:flawed_vel}. The characteristics seen here have little structures, and the analysis of the 200 Hz spectrum has a clear absence of the micro-motion is is expected to be seen. This point is what hints at the possibility that the data was not actually collected at the 200 Hz. The Y position data has a very odd behavior in the frequency domain that is best described by an oscillatory wind pattern, such as from the heating system, opening and closing of doors, or individuals walking past. None of these sources were observed during the data collection, so the data cannot be considered with those in mind. The source of this analysis is the same as for the usable data, so the nuances of the choices in the graphs will be described below.
+The full analysis of the flawed data can be seen in Figures \ref{fig:flawed_pos} and \ref{fig:flawed_vel}. The characteristics seen here have little structure, and the analysis of the 200 Hz spectrum has a clear absence of the micro-motion that is expected to be seen. This point is what hints at the possibility that the data was not actually collected at the 200 Hz. The Y position data has a very odd behavior in the frequency domain that is best described by an oscillatory wind pattern, such as from the heating system, opening and closing of doors, or individuals walking past. None of these sources were observed during the data collection, so the data cannot be considered with those in mind. This analysis is the same as for the Quality Data, so the nuances of the choices in the graphs will be described below.
 
-The mass calculated with this data was sub picogram, with a larger varience according to the bin size used. Analyzing the X-velocity data, the 60 Hz capture gives a mass of $\approx 0.39 \pm 0.04$ pg and the 200 Hz capture gives a mass of $\approx 0.043 \pm 0.004$ pg (Figure \ref{fig:flawed_vel}). Analyzing the Y-velocity data, 60 Hz capture gives a mass of $\approx 0.81 \pm 0.09$ pg and the 200 Hz capture gives a mass of $\approx 0.045 \pm 0.006$ pg (Figure \ref{fig:flawed_vel}). All of these are abnormally small for the actual particle. When taken into account with extra kinetic energy from the wind pushing the particle around, the mass expected would be much lower than the actual mass of the particle. So, the fact that this method yielded a very small mass is reasonable.
+The mass calculated with this data was sub picogram, with a larger variance according to the bin size used. Analyzing the X-velocity data, the 60 Hz capture gives a mass of $\approx 0.39 \pm 0.04$ pg and the 200 Hz capture gives a mass of $\approx 0.043 \pm 0.004$ pg (Figure \ref{fig:flawed_vel}). Analyzing the Y-velocity data, 60 Hz capture gives a mass of $\approx 0.81 \pm 0.09$ pg and the 200 Hz capture gives a mass of $\approx 0.045 \pm 0.006$ pg (Figure \ref{fig:flawed_vel}). All of these are abnormally small for the actual particle. When taken into account with extra kinetic energy from the wind pushing the particle around, the mass expected would be much lower than the actual mass of the particle. So, the fact that this method yielded a very small mass is reasonable.
 
 \subsection{Analyzing Motion}
 %% Give the analysis of motion, x and y
@@ -154,9 +153,9 @@ The mass calculated with this data was sub picogram, with a larger varience acco
     \label{fig:04_pos}
 \end{figure}
 
-For all of the data used, the images were passed through a ``cross-correlate\_simple.py" provided in lab and lightly modified to run the cross correlating algorithm more times, a total of 4 times, and all of the data. The code provides the x and y position of a detected particle in each frame, the x being horizontal (running parallel to the ground), and y being the vertical. The orientation of the paul trap was verticle, so it is expected that the micromoation should be in the Y-direction. Because of the orientation of the camera and the nature of using a circular Paul Trap, the micro-motion can also be seen in the X-direction. The X and Y positions of the particles with respect to have been plotted. Each was then transformed to the Fourier domain and the two peaks from the micro-motion, the 60 Hz and the 78 Hz peaks were set to 0. Then the data was transformed back to the time domain. This obviously worked for the 198 Hz data, but for the 60 Hz and 61 Hz data, their Niquest frequency is around 30 Hz, so the analysis provided no new information. Looking at Figure \ref{fig:04_pos}, the removal of the micro-motion cleaned up the evident motion due to everything else: air-currents and thermal fluctuations. To Attempt to find any air currents, any clear peaks in the Fourier domain can be analyzed to figure out the source. If a oscillatory source of noise, such as a heating unit or a shaking table, were present they could be subtracted at this time. However, there didn't seem to be any other clear sources of noise, so it will be assumed that all of these flucuations are from the thermal energy of the particle. 
+For all of the data used, the images were passed through a ``cross-correlate\_simple.py" provided in lab and lightly modified to run the cross correlating algorithm more times, a total of 4 times. The code provides the x and y position of a detected particle in each frame, the x being horizontal (running parallel to the ground), and y being the vertical. The orientation of the Paul trap was vertical, so it is expected that the micro-motion should be in the Y-direction. Because of the orientation of the camera and the nature of using a circular Paul Trap, the micro-motion can also be seen in the X-direction. The X and Y positions of the particles have been plotted. Each was then transformed to the Fourier domain and the two peaks from the micro-motion, the 60 Hz and the 78 Hz peaks were set to 0. Then the data was transformed back to the time domain. This obviously worked for the 198 Hz data, but for the 60 Hz and 61 Hz data, their Niquest frequency is around 30 Hz, so the analysis provided no new information. Looking at Figure \ref{fig:04_pos}, the removal of the micro-motion cleaned up the evident motion due to everything else: air-currents and thermal fluctuations. To Attempt to find any air currents, any clear peaks in the Fourier domain can be analyzed to figure out the source. If a oscillatory source of noise, such as a heating unit or a shaking table, were present they could be subtracted at this time. However, there didn't seem to be any other clear sources of noise, so it will be assumed that all of these fluctuations are from the thermal energy of the particle. 
 
-Looking at the 60 Hz data, there seems to be a clear drift in teh location of the particle over time in the Y direction (Figure \ref{fig:01_pos}), but in the X direction the walking seems to be more random (Figure \ref{fig:01_pos}). In the 61 Hz data there is a clear osscilation, something above the frequency the data was taken at. It's clear that the source of this oscilation was the mirco-motion. The reason that the 60 Hz didn't pick up the same characteristic is because the frame rate is at the same speed as the oscilations of trap, effectively always taking a picture of the particle at the same position in the overpowering wave. 
+Looking at the 60 Hz data, there seems to be a clear drift in the location of the particle over time in the Y direction (Figure \ref{fig:01_pos}), but in the X direction the walking seems to be more random (Figure \ref{fig:01_pos}). In the 61 Hz data there is a clear oscillation, something above the frequency the data was taken at. It's clear that the source of this osculation was the micro-motion. The reason that the 60 Hz didn't pick up the same characteristic is because the frame rate is at the same speed as the osculations of trap, effectively always taking a picture of the particle at the same position in the overpowering wave. 
 
 \subsection{Analyzing Velocity}
 %% Give the analysis of velocity
@@ -178,9 +177,9 @@ Looking at the 60 Hz data, there seems to be a clear drift in teh location of th
     \label{fig:high_hz_vel}
 \end{figure}
 
-To get an estimate of the speed of the particle in the trap as a function of time two consecutive frames can be subtracted and can be divided by the difference in time between the two frames. This evolution of velocities can then be looked at as a histogram, instead of a time plot. The realm of error analysis can now be estimated as a Poisson distribution, assuming that the error from the ``cross-correlate\_simple.py" is much smaller than that given by Poisson: the square root of the number of items in a given bin. All bins that had less than 10 data points in them were removed from the analysis, as at the regime the Poisson distribution starts to break down. This analysis gives a rough estimate for the probability that the particle is traveling at a given speed. Using Eq \ref{eq:marg_prob2}, a linear fit can be applied to the natural log of the square of the right edge of the velocity bins. The slope will then be equal to $-\frac{m}{2 k_B T}$ and can be used to analyze the mass. 
+To get an estimate of the speed of the particle in the trap as a function of time two consecutive frames were be subtracted and divided by the difference in time between the two frames. This evolution of velocities can then be looked at as a histogram, instead of a time plot. The realm of error analysis can now be estimated as a Poisson distribution, assuming that the error from the ``cross-correlate\_simple.py" is much smaller than that given by Poisson, the error would then be the square root of the number of items in a given bin. All bins that had less than 10 data points in them were removed from the analysis, as at the regime the Poisson distribution starts to break down. This analysis gives a rough estimate for the probability that the particle is traveling at a given speed. Using Eq \ref{eq:marg_prob2}, a linear fit can be applied to the natural log of the square of the right edge of the velocity bins. The slope will then be equal to $-\frac{m}{2 k_B T}$ and can be used to analyze the mass. 
 
-It is interesting to look at how the inability to remove the micro-motion from the 61 Hz catpure added a clear leveling off to the velocities (Figure \ref{fig:low_hz_vel}). The positive slope seen should give a negative mass as well. The general take away is that the characteristics seen are not useful in this specific analysis. Interestingly, the 60 Hz data is still well behaved and gives a reasonably possible slope. Looking at the residuals of all three of the data collections (Figures  \ref{fig:low_hz_vel} and \ref{fig:high_hz_vel}), it is clear which have reasonable linear fits, and which have underlying physics from the micro-motion that has not been addressed. 
+It is interesting to look at how the inability to remove the micro-motion from the 61 Hz capture added a clear leveling off to the velocities (Figure \ref{fig:low_hz_vel}). The positive slope seen should give a negative mass as well. The general take away is that the characteristics seen are not useful in this specific analysis. Interestingly, the 60 Hz data is still well behaved and gives a reasonably possible slope. Looking at the residuals of all three of the data collections (Figures  \ref{fig:low_hz_vel} and \ref{fig:high_hz_vel}), it is clear which have reasonable linear fits, and which have underlying physics from the micro-motion that has not been addressed. 
 
 
 \subsection{Calculating Mass}
@@ -211,7 +210,7 @@ Freq   & Axis & Num of Bins & Mass (pg)         & $\chi_\text{red}^2$ \\ \hline
 \end{tabular}
 \end{table}
 
-From the calculations of the Quality Data, it would seem that the mass of the trapped particle is somewhere between thousands of picograms to tens of picograms. Considering that the 60 Hz data was collected at a lower frame rate and may not have accounted for the 78 Hz noise, of an origin that is not perfectly clear, that the 198 Hz value of tens of picograms should be considered as the measured mass. In considering the X or Y directional values, it's proposed that the Y value be taken. In an ideal trap, all of the micro-motion would be in the Y-direction. Obviously, that is not the case here. However, looking at the X-directional data (Figure \ref{fig:04_pos}), there seems to be a driving force present at a couple points in the time. The micro-motion detected in the Fourier domain is a full magnitude smaller. For this reason, the $24.8 \pm 0.3$ pg is the most reasonable mass to conclude. 
+From the calculations of the Quality Data, it would seem that the mass of the trapped particle is somewhere between thousands of picograms to tens of picograms. Considering that the 60 Hz data was collected at a lower frame rate and may not have accounted for the 78 Hz noise, the 198 Hz value of tens of picograms should be considered as the measured mass. In considering the X or Y directional values, it's proposed that the Y value be taken. In an ideal trap, all of the micro-motion would be in the Y-direction. Obviously, that is not the case here. However, looking at the X-directional data (Figure \ref{fig:04_pos}), there seems to be a driving force present at a couple points in the time. The micro-motion detected in the Fourier domain is a full magnitude smaller. For this reason, the $24.8 \pm 0.3$ pg is the most reasonable mass to conclude. 
 
 \subsection{Transient Response}
 %% Give the transient response
@@ -250,7 +249,7 @@ Freq   & Axis & Num of Bins & Mass (pg)     & $\chi_\text{red}^2$ \\ \hline
 \end{tabular}
 \end{table}
 
-Comparing the masses with those given in the absence of such an impulse, a large discrepency can be seen. Primarily, the masses observed are much smaller. We know, however, that this is the same particle that we got the masses in Table \ref{tab:masses}, so there must be another explanation than a sudden change in mass. This is a result of the particles having extra kinetic energy from the impulse that is attributed to thermal energy in the math. Consequently, the mass must be lighter to move faster with the same amount of ambient energy. This is an important conclusion to draw from about particle traps in general: outside impulses are important to consider. 
+Comparing the masses with those given in the absence of such an impulse, a large discrepancy can be seen. Primarily, the masses observed are much smaller. We know, however, that this is the same particle that we got the masses in Table \ref{tab:masses}, so there must be another explanation than a sudden change in mass. This is a result of the particles having extra kinetic energy from the impulse that is attributed to thermal energy in the math. Consequently, the mass must be lighter to move faster with the same amount of ambient energy. This is an important conclusion to draw from about particle traps in general: outside impulses can have dramatic impacts on the measured values. 
 
 \subsection{Coulomb Crystal}
 %% Give the pics of crystal and analysis that a recording gave. 
@@ -269,10 +268,18 @@ When multiple charged particles are loaded into a trap at the same time they for
 
 \section{Discussion and Conclusions}
 
-This lab provided many learning experiments, both about personal shortcomings in experimental methods and also in the importance of certain environmental factors. Due diligence needs to be taken to understand the effects of important characteristics of the data being observed. When something does seem to be off, it's the responsibility of the experimenter to understand it and fix the error. It also was highlighted, through the \textbf{Transient Response} that watching out for unexpected sources of noise is importance. In a Colloquium given by Brian D'Urso for the MSU physics faculty, he pointed out that care has to be taken to not run important trials during common class times, as the rhythmic walking outside of the lab is enough to mess up the measurements. It's been shown that when that source is extremely predictable, such as with a 60 Hz AC source, that it can effectively be removed in the Fourier domain. However, when there is no clear peak, removing the data is not trivial, and possibly improbable without a deep dive into all of the sources of the noise. 
+This lab provided many learning experiments, both about personal shortcomings in experimental methods and also in the importance of certain environmental factors. Due diligence needs to be taken to understand the effects of important characteristics of the data being observed. When something does seem to be off, it's the responsibility of the experimenter to understand it and fix the error. It also was highlighted, through the \textbf{Transient Response} that watching out for unexpected sources of noise is importance. In a Colloquium given by Brian D'Urso for the MSU physics faculty, he pointed out that care has to be taken to not run important trials during common class times, as the rhythmic walking outside of the lab is enough to mess up the measurements. It's been shown that when that source is extremely predictable, such as with a 60 Hz AC source, that it can effectively be removed in the Fourier domain. However, when there is no clear peak, removing the data is not trivial, and improbable without a deep dive into all of the sources of the noise. 
 
 On top of the important lessons learned, an approximation of the mass of a particle was achieved; giving about $24.8 \pm 0.3$ pg. The physics that also gave the measurement of $925 \pm 63$ pg is not fully understood, but a convincing reason that the former is more trustworthy had been given. Beyond the mass, a good characteristic of the EIT could be seen, as the coulomb crystal. Theoretically this coulomb crystal could be used to give another measurement of the charge on each of the particles in the trap, giving way to calculating the force and another way of relating mass and displacement.
 
+
+%-----------------------------------------------------------------------
+
+
+\vskip 0.2in
+\bibliographystyle{unsrt}
+
+\bibliography{lab04}
 
 %-----------------------------------------------------------------------
 \newpage
@@ -337,15 +344,6 @@ data\_num & variable & bins & calculated\_mass             & chi\textasciicircum
 36        & y        & 1000 & 0.04501 pg +/- 0.00577 pg    & 0.187                  \\
 36        & y        & 2000 & 0.03722 pg +/- 0.00744 pg    & 0.139                  \\
 \end{longtable}
-
-
-%-----------------------------------------------------------------------
-
-
-
-
-\vskip 0.2in
-\bibliography{lab04}
 
 
 \end{document}
