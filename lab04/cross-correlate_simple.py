@@ -143,16 +143,16 @@ if __name__ == "__main__":
     settings = {
         'progress_bar_len': 50,
 
-        'N_horizontal_pixels': 220,
-        'N_vertical_pixels': 220,
+        'N_horizontal_pixels': 25,
+        'N_vertical_pixels': 30,
         'image_max_value': 255,
 
-        'directory_images': "./group02_data/198 Hz fist bump #1",
-        'directory_results': "./group02_data/processed_data",
-        'output_file': "data_05.csv",
+        'directory_images': "../lab05/data_day1/mTRAP05_perp_laser_transient_processed",
+        'directory_results': "../lab05/data_day1/mTRAP05_perp_laser_transient_processed",
+        'output_file': "cc_data.csv",
 
-        'N_images': 2000,
+        'N_images': 10000,
         'upsample_factor': 100,
-        'num_runs': 4,
+        'num_runs': 5,
     }
     main(settings)
