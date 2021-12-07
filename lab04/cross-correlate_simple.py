@@ -143,16 +143,17 @@ if __name__ == "__main__":
     settings = {
         'progress_bar_len': 50,
 
-        'N_horizontal_pixels': 220,
-        'N_vertical_pixels': 220,
+        'N_horizontal_pixels': 25,
+        'N_vertical_pixels': 50,
         'image_max_value': 255,
 
-        'directory_images': "./group02_data/198 Hz fist bump #1",
-        'directory_results': "./group02_data/processed_data",
-        'output_file': "data_05.csv",
+        'directory_images': "C:/Users/jarde/Documents/Advanced_lab_data/lab05/data_day1/01_processed",
+        'directory_results': "C:/Users/jarde/Documents/Advanced_lab_data/lab05",
+        'output_file': "data_01.csv",
 
-        'N_images': 2000,
+
+        'N_images': 10000,
         'upsample_factor': 100,
-        'num_runs': 4,
+        'num_runs': 5,
     }
     main(settings)
