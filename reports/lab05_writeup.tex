@@ -1,0 +1,153 @@
+\documentclass[12pt]{article}
+
+%AMS-TeX packages
+\usepackage{amssymb,amsmath} 
+\usepackage{geometry, graphicx}
+\usepackage{caption}
+\usepackage{physics}
+
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\usepackage{longtable}
+
+% setup the margins
+\geometry{margin=1.0in, headheight=15pt}
+
+\graphicspath{ {../../../Advanced_lab_data/lab05/images} }    
+
+
+\begin{document}
+
+\title{PHSX 444: Lab 05; Magneto-Gravitational Trapping of Diamagnetic Particles}
+\author{William Jardee}
+\maketitle
+
+
+\section{Introduction}
+%% Introduction section. Here I introduce the physics of the experiment and give some slight motivation for the experiment. I personally think that putting the physics of the apparatus here is better. 
+
+Back in the mid 1800s, Earnshaw proved that, under classical mechanics, a stable particle trap cannot be structured using purely static fields. Using EM waves or strong currents, like the Paul trap does, a trap can be created. But, it is impossible to create a pure local minimum in the electric of magnetic fields using static fields. It is, however, relatively easy to create a local maximum in the fields. If a particle can find a lower energy state in a higher EM field, then it can exploit this local maximum as a stable, trapped state. The non-classical diamagnetic property fits that bill. Diamagnetics are primarily characterized by their property of achieving a lower energy state when it a higher B-field. Thus, if something like a quadrapole is constructed, such that there is a strong maximum at the center of the structure, then a diagmagnetic would reach a stable equilibrium at the center. This is exactly the premise of this lab. And by removing the air around the particle, by using a vacuum, the system can actively be observed as leaving an over-damped harmonic oscillator, to an extremely weakly damped harmonic oscillator. 
+
+
+
+%-----------------------------------------------------------------------
+
+\section{Experimental Methods}
+For the sake of brevity, I will spare the explanation about the laser setup and the software situation; both of those have been held over the last two labs. The camera, while the same processing body, has been set up with a new fixed lens that has a higher magnification, so that will have to be calibrated. The setup itself will be using a simple vacuum chamber with an externally hanging chamber with three viewing windows. One will be used to shine the laser through, opposite that one the camera will observe the particle and the last window will serve as an access-point to load particles into the trap. The particles being used as diamagnetic silicon spheres with radii on the order of micro-meters. 
+
+\subsection{Particle Trap}
+The trap being used is a quadropole setup, where the diagonal poles are matching. This setup allows for a very strong magnetic field, on the order of 1 Telsa, at the center of the trap. Upon observing the trap from multiple angles, it was noted that the trap was both not level with the floor and the four polls were misaligned such that the four corners of the poles created a rhombus shape, instead of the rectangle they should have.
+
+Because of the nature of diamagnets, touching the particles and depositing them where they should go was not an option; as you could pick them up with tweesers easily, but you should get them off without sophisticated methods. Instead, a small air blower was used to encourage particles to get airborn and letting them find the equilibrium in the trap on their own. This method turned out to be unreliable, having no particle trapped or more than one trapped at a time more often than having an ideal one. This lack of control shows itself in the rough-vacuum analysis (Figure \ref{fig:rough_vac}) were the characteristics of a setup with two particles had to be observed because it was taking too long to get only one particle in the trap. 
+
+The trap was observed with a small viewing window, allowing a high frame rate to be taken. A majority of the data was taken at 468 Hz, a frame rate much higher than the highest frequency of the trap, ~100 Hz. All of the data that is presented in this report has been taken at that 468 Hz value. 
+
+\subsection{Vacuum Chamber}
+The vacuum chamber used was a two stage system. The first stage employed a rotary vane mechanical pump to access the rough-vacuum regime and a turbopump design to reach the high-vacuum. Both pumped out a larger vacuum chamber that was connected particle trap's chamber by a metal sealed door. While this door is resilient to some abuse, it requires a moderate amount of torque to ensure it is sealed and to break that seal to evacuate the chamber. An image of the setup can be seen in Figure \ref{fig:trap}.
+\begin{figure}
+\includegraphics[width=\textwidth]{trap.jpg}\
+\caption{An image of the exact setup used to collect the data. To the left the small chamber with the rap can be seen. in the lower center, the turbopump can be see. Off the bottom, sitting on the floor, the rough pump cannot be seen.}
+\label{fig:trap}
+\end{figure}
+
+
+
+%-----------------------------------------------------------------------
+
+\section{Results and Analysis}
+The process of the analysis is quite similar to what has already been done in previous labs, so some of the more trivial points will be slightly glanced over. There was, however, quite a few new and interesting points, specifically when it comes to the effects that pressure had on the physics of the system. 
+
+\subsection{Calibration}
+Before any of the data could be analyzed, the physical reasoning of the camera had to be calculated. Two calibration images were taken, on in the vertical orientation and one in the roughly horizontal orientation (Figures \ref{fig:h_cali} and \ref{fig:v_cali}. A cross-section was then taken that passed through the tick marks. Using a Fourier transform, the largest peak was identified and used as the average wavelength between tick marks on the calibration slide. Each tick mark was 10 $\mu$m. The horizontal calibration slide was not perfectly level when taking the image, so simple trigonometry was used to find the horizontal width between each tick marks according to the angle that can be seen in Figure \ref{fig:h_cali}. 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{h_cali.png}\
+\caption{Calibration image for the horizontal axis of the camera. This analysis gave the ratio 1 pixel : 1.9556 $\mu$m.}
+\label{fig:h_cali}
+
+\includegraphics[width=\textwidth]{v_cali.png}\
+\caption{Calibration image for the vertical axis of the camera. This analysis gave the ratio 1 pixel : 1.9556 $\mu$m.}
+\label{fig:v_cali}
+\end{figure}
+
+\subsection{Calculating Mass}
+To calculate the mass, first the strength of the trap had to be calculated, then the mass could be calculated through the simple relationship 
+\[\omega = \sqrt{\frac{k}{m}}\]
+where $\omega$ is the oscillation frequency and $k$ is the strength of the trap. Creating a histogram of the position squared, an exponential fit could be taken of the data to get a relationship between the Boltzmann distribution and the energy of the particle:
+\[P(x) \propto \exp(kx^2/k_B T)\]
+Th error bars assigned come from an approximation according to the Poisson distribution (the one that describes a histogram in this setting), where the error is approximately the square root of the number of elements in bin. While the $\chi$ value may not reflect this, it can be seen from Figure \ref{fig:boltz} that the error bars are not large enough for this situation. Consequentially, the errors given in this paper will be considerably off. However, the tend of the data looks to be good, so the primary answers can be trusted. 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{bolz_dist.png}\
+\caption{The histogram of $x^2$. The values were first binned in $x$, then the mean value was subtracted and the remaining was squared. The slope can be used in the equation $U = \frac{1}{2}kx^2$ to find the energy of the system. This can be related by the Boltzmann distribution to the probability of a state to occur.}
+\label{fig:boltz}
+\end{figure}
+
+Using this an analysis, the strength of the trap was found to be $8.45 \times 10^{-10} \pm 0.18 \times10^{-10}$ N/m. The residual plot also seems to show good characteristics of the data. The raw data of this plot can be seen in Figure \ref{fig:no_vac}. The analysis was taken by observing the particle for roughly 44 seconds. This data was then cross-correlated  with itself to find the displacement between consecutive frame. This analysis was done both for the trapped particle and a particularly bright part of the trap. Getting the time evolution of the trap meant that the oscillation of the trap could be taken into account and subtracted from the data. Looking at Figure \ref{fig:no_vac}, it is evident that this subtraction effectively removed the rhythmic shaking of the vacuum chamber that was probably the result of a slight bump. Since the main source of these outside effects has been accounted for, the actual strength of the trap could be calculated. This becomes even more important when the analysis moves on towards vacuum, as the peaks that do exist become much more defined. 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{no_vac.png}\
+\caption{The analysis of the best atmospheric data taken. On the right is the time domain data, truncated. to only 2 seconds so that the characteristics that gave the Fourier transform on the left can be seen. These come from captures that were about 44 seconds long. }
+\label{fig:no_vac}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{rough_vac.png}\
+\caption{This is the same analysis for the rough pump data. This data was technically viewing two particles. However, one was much larger than the other, so the tracking only follows one of them. While this may introduce some new dynamics into the system, with how small the partnering particle was, the effects can be neglected.}
+\label{fig:rough_vac}
+\end{figure}
+
+\begin{figure}
+\includegraphics[width=\textwidth]{high_vac.png}\
+\caption{Data taken right after reaching the high vacuum regime. The background subtraction proved to be very useful here, as it verified that all the peaks larger than ~8 Hz were indeed background noise.}
+\label{fig:h_vac}
+\end{figure}
+
+The strength of the trap was measured in the axial direction because the camera was purposefully moved to capture nearly only the axial motion of the particle. When taken down to high-vacuum, the individual components of the motion become very evident. Figure \ref{fig:hest_vac} shows the particle traveling in the same direction that Figure \ref{fig:no_vac} calculated the strength of. Figure \ref{fig:hest_vac_xy} shows the analysis of the particle traveling in both the vertical and transverse direction. 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{highest_vac.png}\
+\caption{This is data that was taken 1 hour after the high vacuum regime was first reached. Comparing this one with Figure \ref{fig:h_vac}, the extra peak left over after background subtraction has disappeared, and the peak left over is tighter than before.}
+\label{fig:hest_vac}
+
+\includegraphics[width=\textwidth]{highest_vac_xy.png}\
+\caption{This image was the reason that the background data was considered. Looking at the background confirms that the two found matches were both peaks from the trap, while removing the extra peaks that were from a moving field of view. There is a little peak of the 5 Hz left over from the data subtraction, a reminiscent that the trap was not perfectly orientated.}
+\label{fig:hest_vac_xy}
+\end{figure}
+
+Using the oscillation of the trap, 83.0 Hz, the mass of the particle can be measured. Shown here were the cleanest results taken; but multiple more particles were trapped and measured. The range of masses were on the order of 100 pg to 1000 pg. The one trapped here measured $118 \pm 2.56$ pg at ~$10^{-6}$ Torr and $118 \pm 2$ pg at ~$10^{-5}$ Torr. If instead the wrong orientation was used: $6.24 \pm 0.13$ pg or $3.15 \pm 0.07$ pg for 368.0 Hz and 517.8 Hz, respectively. So, it is clear that it is important to keep the orientation being used in mind. 
+
+It is interesting to see the qualitative changes that happen as the pressure gets lower and lower. Comparing Figure \ref{fig:no_vac} with Figure \ref{fig:rough_vac} and Figure \ref{fig:hest_vac}, it is obvious to see how much less noise there is as the thermal bath that is the surrounding air gets removed. The defining characteristic of the over-damped oscillator, the exponential decay in the beginning of the FFT of the atmospheric trials, quickly disappears as the trap enters the rough vacuum stage. 
+
+
+\subsection{Dispersion and the Effects of Pressure}
+
+The effects of this thermal bath can be quantifiably described with dispersion. Dispersion measures the random walk away during a finite time step. Looking at Figure \ref{fig:dispersion}, three different time steps can be seen for the three different types of vacuums used. Since all the videos were taken at the same frame-rate, the time step between the three different vacuums match up for each color. As could be expected, the damping in the trial at atmospheric pressure shows an extremely strong correlation between the $n=1$ and $n=10$ step. The rough-vacuum saw a moderate relationship between the two. The high-vacuum has a very interesting relationship. Instead of the purely linear relationship like the atmospheric characteristic, the relationship seems to be elliptical. The most probable explanation of this is an idealized oscillator action. Within the next 10 frames, the distance that the particle travels will be predictable. This predictable pattern is cyclic and matches that pattern seen here. The $n=1000$ step, however, has given enough time for a couple thermal interaction to happen and reintroduce some stochastic behavior into the system. The dramatic lack of center to this behavior is quite interest though. 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{dispersion.png}\
+\caption{The relationship between the $i$th and the $(i+n)$th step. These images only look at the first 5000 frames the view, or about the first 11 seconds of the recording. The $n=1$ has been laid on top of the $n=10$, which has been laid on top of the $n=1000$ scatter plot. It can be assumed that under each of the spots, barring the high-vacuum which the characteristics can be seen in, there is a dense packign of the previous colors. }
+\label{fig:dispersion}
+\end{figure}
+
+This relationship between step $i$ and step $i+n$ is best seen in the rough-vacuum data, and best illustrated by Figure \ref{fig:rough_vac}. The over-damped oscillator is very evident in the Fourier transform of the data. So, this data will be measured to find the dispersion coefficient at rough vacuum. Plotting a histogram of the displacement between step $i$ and step $i+n$ (Figure \ref{fig:gauss}), the relationship is obviously Gaussian, as should be no surprise. Doing a simple fit to the data, a standard deviation can be found: $\sigma = 1.50 \pm 0.02$ $\mu$m. Using the relationship
+\[\sigma^2 \approx 2D \Delta t\]
+The dispersion coefficient can be calculated as $D \approx 101.85 \pm 0.01$ $\mu$m$^2$/2. 
+
+\begin{figure}
+\includegraphics[width=\textwidth]{dispersion_gauss.png}\
+\caption{A simple Gaussian fit onto the histogram of displacement between the $i$th step and $(i+n)$th step. Here, $n=5$ for the rough-vacuum distribution seen in Figure \ref{fig:rough_vac}.}
+\label{fig:gauss}
+\end{figure}
+
+If this same analysis was done for the atmospheric pressure, it would find that the dispersion is much larger, and there is next to no dispersion happening in a high-vacuum. And this makes sense, as a system cannot diffuse if there is nothing nearby to diffuse into. 
+
+
+%-----------------------------------------------------------------------
+
+\section{Discussion and Conclusions}
+
+``Vacuum" is a very common idea that is thrown around during theory classes, but it is rather rare that one get's to actually play around with a vacuum in such a tangible way, like this lab has allowed. It has been shown how differing levels of vacuum produce different characteristics of data. Characteristics that are best characterized and understood in the Fourier domain. Taking advantage of the Fourier domain also allows for simple correction to be made to background noise form a shaking machine or the vibrations of a vacuum pump. The intuition about how removing more gas from a chamber means that there is less interactions available and less stochastic characteristics that can be given to a system was confirmed by the diffusion analysis. There is a lot of room for extra analysis still left over, from the full delve into diffusion and quality factor of the data, as well as fully understanding how to get accurate mass measurements from Fourier data that seems to blend together two different oscillators in a heat back. But, what has been done is incredibly insightful and worth reflecting on in a meaningful way.
+
+
+\end{document}
